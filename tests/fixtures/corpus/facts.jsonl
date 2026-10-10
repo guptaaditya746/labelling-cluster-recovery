@@ -1,0 +1,19 @@
+{"fact_id": "p4-t", "subject": "p4", "predicate": "title", "object": "Video Prediction Policy: A Generalist Robot Policy", "source_id": "p4-metadata"}
+{"fact_id": "p4-y", "subject": "p4", "predicate": "year", "object": "2025", "source_id": "p4-metadata"}
+{"fact_id": "p6-t", "subject": "p6", "predicate": "title", "object": "FOCUS: object-centric world models for robotic manipulation", "source_id": "p6-metadata"}
+{"fact_id": "p6-y", "subject": "p6", "predicate": "year", "object": "2024", "source_id": "p6-metadata"}
+{"fact_id": "p7-t", "subject": "p7", "predicate": "title", "object": "FOCUS: object-centric world models for robotic manipulation", "source_id": "p7-metadata"}
+{"fact_id": "p7-y", "subject": "p7", "predicate": "year", "object": "2025", "source_id": "p7-metadata"}
+{"fact_id": "p9-t", "subject": "p9", "predicate": "title", "object": "Dream to Manipulate", "source_id": "p9-metadata"}
+{"fact_id": "p9-y", "subject": "p9", "predicate": "year", "object": "2025", "source_id": "p9-metadata"}
+{"fact_id": "p4-Yucheng Hu", "subject": "p4", "predicate": "author", "object": "Yucheng Hu", "source_id": "p4-metadata"}
+{"fact_id": "p4-Ada", "subject": "p4", "predicate": "author", "object": "Ada", "source_id": "p4-metadata"}
+{"fact_id": "p6-Ada", "subject": "p6", "predicate": "author", "object": "Ada", "source_id": "p6-metadata"}
+{"fact_id": "p6-Bo", "subject": "p6", "predicate": "author", "object": "Bo", "source_id": "p6-metadata"}
+{"fact_id": "p7-Ada", "subject": "p7", "predicate": "author", "object": "Ada", "source_id": "p7-metadata"}
+{"fact_id": "p7-Bo", "subject": "p7", "predicate": "author", "object": "Bo", "source_id": "p7-metadata"}
+{"fact_id": "p9-Ada", "subject": "p9", "predicate": "author", "object": "Ada", "source_id": "p9-metadata"}
+{"fact_id": "p9-Cy", "subject": "p9", "predicate": "author", "object": "Cy", "source_id": "p9-metadata"}
+{"fact_id": "p4-v", "subject": "p4", "predicate": "venue", "object": "ICML", "source_id": "p4-metadata"}
+{"fact_id": "p7-v", "subject": "p7", "predicate": "venue", "object": "ICML 2025 Workshop", "source_id": "p7-metadata"}
+{"fact_id": "p9-v", "subject": "p9", "predicate": "venue", "object": "ICLR", "source_id": "p9-metadata"}

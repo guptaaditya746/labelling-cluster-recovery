@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+out/
+.pytest_cache/
+.ruff_cache/
+# Evidence documents: doc.json/doc.md/*.subschema.ttl are kept; build state is not.
+evidence_docs/*/cache.jsonl
+evidence_docs/*/progress.json
+# Slurm job output; the folder is kept because sbatch does not create it.
+slurm/logs/*
+!slurm/logs/.gitkeep

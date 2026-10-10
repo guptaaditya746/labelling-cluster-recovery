@@ -1,0 +1,12 @@
+[
+  {"id":"q01","theme":"Themes","category":"synthesis","kind":"synthesis","scope":"corpus","question":"What research themes recur across this corpus, and how are they connected?"},
+  {"id":"q02","theme":"Task trends","category":"synthesis","kind":"synthesis","scope":"corpus","question":"Which NLP tasks appear most often, and what kinds of approaches are used for them?"},
+  {"id":"q03","theme":"Methods","category":"synthesis","kind":"synthesis","scope":"corpus","question":"How do papers in this corpus use retrieval and evidence to support their results?"},
+  {"id":"q04","theme":"Benchmarks","category":"synthesis","kind":"synthesis","scope":"corpus","question":"Which datasets and benchmarks recur across the corpus, and what do they measure?"},
+  {"id":"q05","theme":"Evaluation","category":"synthesis","kind":"synthesis","scope":"corpus","question":"How do these studies evaluate their systems: with automatic metrics, human judgments, or real-world tests?"},
+  {"id":"q06","theme":"Language coverage","category":"synthesis","kind":"synthesis","scope":"corpus","question":"Which languages are represented in the corpus, and where are the clearest coverage gaps?"},
+  {"id":"q07","theme":"Safety","category":"synthesis","kind":"synthesis","scope":"corpus","question":"What safety and reliability risks are studied across the corpus, and how are they tested?"},
+  {"id":"q08","theme":"Limitations","category":"synthesis","kind":"synthesis","scope":"corpus","question":"What limitations or open problems recur across multiple papers?"},
+  {"id":"q09","theme":"Tradeoffs","category":"synthesis","kind":"synthesis","scope":"corpus","question":"What tradeoffs between performance, robustness, and compute cost do the papers report?"},
+  {"id":"q10","theme":"Citation connections","category":"synthesis","kind":"synthesis","scope":"corpus","question":"Which research areas are most connected in the corpus citation network, and what links them?"}
+]

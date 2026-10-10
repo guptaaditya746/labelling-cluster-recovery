@@ -1,0 +1,11 @@
+question_id,theme,question,difficulty_1_to_3,note
+q01,Themes,"What research themes recur across this corpus, and how are they connected?",3,Assistant rating: corpus-wide theme synthesis and connections; relational output across papers.
+q02,Task trends,"Which NLP tasks appear most often, and what kinds of approaches are used for them?",2,"Assistant rating: count/group task and approach labels across papers; dominant reading, no explicit relation modeling."
+q03,Methods,How do papers in this corpus use retrieval and evidence to support their results?,3,Assistant rating: compare evidence and retrieval methods across full papers.
+q04,Benchmarks,"Which datasets and benchmarks recur across the corpus, and what do they measure?",2,Assistant rating: identify benchmarks and group what they measure across papers.
+q05,Evaluation,"How do these studies evaluate their systems: with automatic metrics, human judgments, or real-world tests?",2,Assistant rating: classify evaluation types across studies; one dominant taxonomy.
+q06,Language coverage,"Which languages are represented in the corpus, and where are the clearest coverage gaps?",3,Assistant rating: identify coverage gaps by comparing languages across the corpus.
+q07,Safety,"What safety and reliability risks are studied across the corpus, and how are they tested?",3,Assistant rating: connect risk categories to how they are tested across studies.
+q08,Limitations,What limitations or open problems recur across multiple papers?,3,Assistant rating: synthesize limitations recurring across multiple papers.
+q09,Tradeoffs,"What tradeoffs between performance, robustness, and compute cost do the papers report?",3,"Assistant rating: compare performance, robustness, and compute tradeoffs across papers."
+q10,Citation connections,"Which research areas are most connected in the corpus citation network, and what links them?",3,Assistant rating: citation-network links between research areas require cross-paper relational synthesis.

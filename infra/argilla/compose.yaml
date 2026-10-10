@@ -1,0 +1,73 @@
+# Argilla v2 for gold-set review, run on Omen (Docker / Dockge).
+# Adapted from the official examples/deployments/docker/docker-compose.yaml:
+# pinned versions, port bound to localhost (reach it via omen-tunnels),
+# credentials from .env, 1 GB Elasticsearch heap, restart policies.
+x-common: &common
+  ARGILLA_HOME_PATH: /var/lib/argilla
+  ARGILLA_ELASTICSEARCH: http://elasticsearch:9200
+  ARGILLA_DATABASE_URL: postgresql+asyncpg://postgres:${PG_PASSWORD}@postgres:5432/argilla
+  ARGILLA_REDIS_URL: redis://redis:6379/0
+  HF_HUB_DISABLE_TELEMETRY: "1"
+
+services:
+  argilla:
+    image: argilla/argilla-server:${ARGILLA_VERSION:-v2.8.0}
+    restart: unless-stopped
+    ports: ["127.0.0.1:6900:6900"]
+    environment:
+      <<: *common
+      USERNAME: ${ARGILLA_OWNER}
+      PASSWORD: ${ARGILLA_PASSWORD}
+      API_KEY: ${ARGILLA_API_KEY}
+      WORKSPACE: ${ARGILLA_WORKSPACE:-thesis}
+    volumes: [argilladata:/var/lib/argilla]
+    depends_on: [postgres, elasticsearch, redis]
+    networks: [argilla]
+
+  worker:
+    image: argilla/argilla-server:${ARGILLA_VERSION:-v2.8.0}
+    restart: unless-stopped
+    environment:
+      <<: *common
+      BACKGROUND_NUM_WORKERS: 2
+    command: sh -c 'python -m argilla_server worker --num-workers $${BACKGROUND_NUM_WORKERS}'
+    depends_on: [postgres, elasticsearch, redis]
+    networks: [argilla]
+
+  postgres:
+    image: postgres:14
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+      POSTGRES_DB: argilla
+    volumes: [postgresdata:/var/lib/postgresql/data]
+    networks: [argilla]
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.17.0
+    restart: unless-stopped
+    environment:
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+      - node.name=elasticsearch
+      - cluster.name=es-argilla
+      - discovery.type=single-node
+      - cluster.routing.allocation.disk.threshold_enabled=false
+      - xpack.security.enabled=false
+    ulimits:
+      memlock: { soft: -1, hard: -1 }
+    volumes: [elasticdata:/usr/share/elasticsearch/data]
+    networks: [argilla]
+
+  redis:
+    image: redis:7
+    restart: unless-stopped
+    networks: [argilla]
+
+networks:
+  argilla: { driver: bridge }
+
+volumes:
+  argilladata: {}
+  elasticdata: {}
+  postgresdata: {}

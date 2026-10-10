@@ -1,0 +1,11 @@
+question_id,theme,question,difficulty_1_to_3,note
+q01,Themes,"What research themes recur across this corpus, and how are they connected?",3,"Assistant second-pass estimate, second assistant estimate from the wording and corpus; not a human or blind independent rating."
+q02,Task trends,"Which NLP tasks appear most often, and what kinds of approaches are used for them?",2,Assistant second-pass estimate: corpus-wide count/grouping; not a human rating.
+q03,Methods,How do papers in this corpus use retrieval and evidence to support their results?,3,Assistant second-pass estimate: cross-paper evidence/method comparison; not a human rating.
+q04,Benchmarks,"Which datasets and benchmarks recur across the corpus, and what do they measure?",2,Assistant second-pass estimate: identify and group benchmarks by measured capability; not a human rating.
+q05,Evaluation,"How do these studies evaluate their systems: with automatic metrics, human judgments, or real-world tests?",2,Assistant second-pass estimate: classify evaluation modes across papers; not a human rating.
+q06,Language coverage,"Which languages are represented in the corpus, and where are the clearest coverage gaps?",3,Assistant second-pass estimate: compare language coverage and identify gaps; not a human rating.
+q07,Safety,"What safety and reliability risks are studied across the corpus, and how are they tested?",3,Assistant second-pass estimate: relate studied risks to test methods across papers; not a human rating.
+q08,Limitations,What limitations or open problems recur across multiple papers?,3,Assistant second-pass estimate: synthesize recurring limitations across papers; not a human rating.
+q09,Tradeoffs,"What tradeoffs between performance, robustness, and compute cost do the papers report?",3,Assistant second-pass estimate: compare reported tradeoffs across papers; not a human rating.
+q10,Citation connections,"Which research areas are most connected in the corpus citation network, and what links them?",3,Assistant second-pass estimate: infer links among areas from corpus citation structure; not a human rating.

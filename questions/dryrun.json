@@ -1,0 +1,89 @@
+[
+  {
+    "id": "nlp27",
+    "question": "How do SafeRAG and HydraRAG differ in the problems they address in retrieval-augmented generation?",
+    "category": "synthesis",
+    "kind": "synthesis",
+    "papers": ["2025-acl-long-230", "2025-emnlp-main-730"],
+    "complexity": {
+      "papers_read": 2,
+      "operators": ["comparison"]
+    }
+  },
+  {
+    "id": "nlp28",
+    "question": "How do FACT-AUDIT and TracSum make outputs traceable to supporting evidence?",
+    "category": "synthesis",
+    "kind": "synthesis",
+    "papers": ["2025-acl-long-17", "2025-emnlp-main-43"],
+    "complexity": {
+      "papers_read": 2,
+      "operators": ["comparison"]
+    }
+  },
+  {
+    "id": "nlp29",
+    "question": "How do Code-Switching Red-Teaming and IndoSafety approach multilingual safety differently?",
+    "category": "synthesis",
+    "kind": "synthesis",
+    "papers": ["2025-acl-long-657", "2025-emnlp-main-465"],
+    "complexity": {
+      "papers_read": 2,
+      "operators": ["comparison"]
+    }
+  },
+  {
+    "id": "nlp30",
+    "question": "Which retrieval-augmented generation approach is best among the indexed 2025 papers, and by which evaluation measure?",
+    "category": "aggregation/ranking",
+    "kind": "synthesis",
+    "papers": ["2025-acl-long-230", "2025-emnlp-main-730"],
+    "complexity": {
+      "papers_read": 3,
+      "operators": ["ranking"],
+      "readings": 2
+    },
+    "readings": [
+      {
+        "label": "best on a shared benchmark",
+        "measure": "one metric on one benchmark that several papers report"
+      },
+      {
+        "label": "no common measure",
+        "measure": "each paper's own headline metric; the answer states they are not comparable"
+      }
+    ],
+    "notes": "Corpus-wide; the listed papers only seed candidate generation. Readings are a draft to agree with the professor."
+  },
+  {
+    "id": "nlp31",
+    "question": "Across this corpus, which author is most successful?",
+    "category": "aggregation/ranking",
+    "kind": "structural",
+    "operation": {
+      "op": "author_paper_counts",
+      "rank": "top"
+    },
+    "complexity": {
+      "papers_read": 0,
+      "operators": ["ranking"],
+      "readings": 2
+    },
+    "readings": [
+      {
+        "label": "most papers",
+        "measure": "number of distinct indexed papers",
+        "operation": {
+          "op": "author_paper_counts",
+          "rank": "top"
+        }
+      },
+      {
+        "label": "most cited",
+        "measure": "citations from other indexed papers"
+      }
+    ],
+    "origin": "professor",
+    "notes": "The professor's example of an ambiguous question. Only the 'most papers' reading has computed gold so far."
+  }
+]

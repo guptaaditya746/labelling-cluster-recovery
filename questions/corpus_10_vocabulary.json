@@ -1,0 +1,3548 @@
+{
+  "version": 1,
+  "question_set": "corpus_10",
+  "status": "frozen",
+  "normalization": "Unicode NFKC, casefold, collapse whitespace, then apply only the explicit aliases below.",
+  "question_texts": {
+    "q01": "What research themes recur across this corpus, and how are they connected?",
+    "q02": "Which NLP tasks appear most often, and what kinds of approaches are used for them?",
+    "q03": "How do papers in this corpus use retrieval and evidence to support their results?",
+    "q04": "Which datasets and benchmarks recur across the corpus, and what do they measure?",
+    "q05": "How do these studies evaluate their systems: with automatic metrics, human judgments, or real-world tests?",
+    "q06": "Which languages are represented in the corpus, and where are the clearest coverage gaps?",
+    "q07": "What safety and reliability risks are studied across the corpus, and how are they tested?",
+    "q08": "What limitations or open problems recur across multiple papers?",
+    "q09": "What tradeoffs between performance, robustness, and compute cost do the papers report?",
+    "q10": "Which research areas are most connected in the corpus citation network, and what links them?"
+  },
+  "paper_aliases": {
+    "p2": [
+      "p2",
+      "World Models and Predictive Coding for Cognitive and Developmental Robotics: Frontiers and Challenges",
+      "dblp:journals/corr/abs-2301-05832",
+      "https://dblp.org/rec/journals/corr/abs-2301-05832",
+      "10.48550/arxiv.2301.05832"
+    ],
+    "p3": [
+      "p3",
+      "ACROSSVAM1.0: PARTICLE WORLD MODELING FOR TEXT-ASSISTED ROBOT VIDEO PREDICTION",
+      "dblp:journals/corr/abs-2608-28491",
+      "https://dblp.org/rec/journals/corr/abs-2608-28491",
+      "10.48550/arxiv.2608.28491"
+    ],
+    "p4": [
+      "p4",
+      "Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations",
+      "dblp:journals/corr/abs-2412-14803",
+      "https://dblp.org/rec/journals/corr/abs-2412-14803",
+      "10.48550/arxiv.2412.14803"
+    ],
+    "p5": [
+      "p5",
+      "Autonomous Tissue Manipulation via Surgical Robot Using Learning Based Model Predictive Control",
+      "dblp:conf/icra/ShinFPMDR19",
+      "https://dblp.org/rec/conf/icra/ShinFPMDR19",
+      "10.1109/icra.2019.8794159"
+    ],
+    "p6": [
+      "p6",
+      "FOCUS: object-centric world models for robotic manipulation",
+      "dblp:journals/finr/FerraroMVD25",
+      "https://dblp.org/rec/journals/finr/FerraroMVD25",
+      "10.3389/fnbot.2025.1585386"
+    ],
+    "p7": [
+      "p7",
+      "Multi-View Masked World Models for Visual Robotic Manipulation",
+      "dblp:journals/corr/abs-2302-02408",
+      "https://dblp.org/rec/journals/corr/abs-2302-02408",
+      "10.48550/arxiv.2302.02408"
+    ],
+    "p8": [
+      "p8",
+      "Factored World Models for Zero-Shot Generalization in Robotic Manipulation",
+      "dblp:journals/corr/abs-2202-05333",
+      "https://dblp.org/rec/journals/corr/abs-2202-05333",
+      "10.48550/arxiv.2202.05333"
+    ],
+    "p9": [
+      "p9",
+      "FOCUS: Object-Centric World Models for Robotics Manipulation",
+      "dblp:journals/corr/abs-2307-02427",
+      "https://dblp.org/rec/journals/corr/abs-2307-02427",
+      "10.48550/arxiv.2307.02427"
+    ],
+    "p10": [
+      "p10",
+      "KALIE: Fine-Tuning Vision-Language Models for Open-World Manipulation without Robot Data",
+      "dblp:journals/corr/abs-2409-14066",
+      "https://dblp.org/rec/journals/corr/abs-2409-14066",
+      "10.48550/arxiv.2409.14066"
+    ],
+    "p11": [
+      "p11",
+      "Surfer: Progressive Reasoning with World Models for Robotic Manipulation",
+      "dblp:journals/corr/abs-2306-11335",
+      "https://dblp.org/rec/journals/corr/abs-2306-11335",
+      "10.48550/arxiv.2306.11335"
+    ],
+    "p12": [
+      "p12",
+      "World4RL: Diffusion World Models for Policy Refinement with Reinforcement Learning for Robotic Manipulation",
+      "dblp:journals/corr/abs-2509-19080",
+      "https://dblp.org/rec/journals/corr/abs-2509-19080",
+      "10.1109/lra.2026.3728345"
+    ],
+    "p13": [
+      "p13",
+      "Online Trajectory Generation with Distributed Model Predictive Control for Multi-Robot Motion Planning",
+      "dblp:journals/ral/LuisVS20",
+      "https://dblp.org/rec/journals/ral/LuisVS20",
+      "10.1109/lra.2020.2964159"
+    ],
+    "p16": [
+      "p16",
+      "Implementation of Nonlinear Model Predictive Path-Following Control for an Industrial Robot",
+      "dblp:journals/tcst/FaulwasserWZF17",
+      "https://dblp.org/rec/journals/tcst/FaulwasserWZF17",
+      "10.1109/tcst.2016.2601624"
+    ],
+    "p17": [
+      "p17",
+      "Deep Haptic Model Predictive Control for Robot-Assisted Dressing",
+      "dblp:conf/icra/EricksonCTLK18",
+      "https://dblp.org/rec/conf/icra/EricksonCTLK18",
+      "10.1109/icra.2018.8460656"
+    ],
+    "p19": [
+      "p19",
+      "Semi-Autonomous Robot Teleoperation with Obstacle Avoidance via Model Predictive Control",
+      "dblp:journals/ral/RubagottiTOS19",
+      "https://dblp.org/rec/journals/ral/RubagottiTOS19",
+      "10.1109/lra.2019.2917707"
+    ],
+    "2025-acl-long-1010": [
+      "2025-acl-long-1010",
+      "On the Acquisition of Shared Grammatical Representations in Bilingual Language Models",
+      "dblp:conf/acl/ArnettCM025",
+      "https://dblp.org/rec/conf/acl/ArnettCM025",
+      "10.18653/v1/2025.acl-long.1010"
+    ],
+    "2025-acl-long-102": [
+      "2025-acl-long-102",
+      "ECERC: Evidence-Cause Attention Network for Multi-Modal Emotion Recognition in Conversation",
+      "dblp:conf/acl/ZhangT25",
+      "https://dblp.org/rec/conf/acl/ZhangT25",
+      "10.18653/v1/2025.acl-long.102"
+    ],
+    "2025-acl-long-1020": [
+      "2025-acl-long-1020",
+      "SYNTHIA: Novel Concept Design with Affordance Composition",
+      "dblp:conf/acl/HaJKLWNB0C025",
+      "https://dblp.org/rec/conf/acl/HaJKLWNB0C025",
+      "10.18653/v1/2025.acl-long.1020"
+    ],
+    "2025-acl-long-1031": [
+      "2025-acl-long-1031",
+      "Uncovering the Impact of Chain-of-Thought Reasoning for Direct Preference Optimization: Lessons from Text-to-SQL",
+      "dblp:conf/acl/LiuLZCXTQZ25",
+      "https://dblp.org/rec/conf/acl/LiuLZCXTQZ25",
+      "10.18653/v1/2025.acl-long.1031"
+    ],
+    "2025-acl-long-1042": [
+      "2025-acl-long-1042",
+      "Can Third Parties Read Our Emotions?",
+      "dblp:conf/acl/LiZVIAWR25",
+      "https://dblp.org/rec/conf/acl/LiZVIAWR25",
+      "10.18653/v1/2025.acl-long.1042"
+    ],
+    "2025-acl-long-1052": [
+      "2025-acl-long-1052",
+      "Registering Source Tokens to Target Language Spaces in Multilingual Neural Machine Translation",
+      "dblp:conf/acl/00010MDTUW25",
+      "https://dblp.org/rec/conf/acl/00010MDTUW25",
+      "10.18653/v1/2025.acl-long.1052"
+    ],
+    "2025-acl-long-1063": [
+      "2025-acl-long-1063",
+      "Knowledge Image Matters: Improving Knowledge-Based Visual Reasoning with Multi-Image Large Language Models",
+      "dblp:conf/acl/Ye0ZZLJ25",
+      "https://dblp.org/rec/conf/acl/Ye0ZZLJ25",
+      "10.18653/v1/2025.acl-long.1063"
+    ],
+    "2025-acl-long-1074": [
+      "2025-acl-long-1074",
+      "JoPA: Explaining Large Language Model’s Generation via Joint Prompt Attribution",
+      "dblp:conf/acl/ChangCWC025",
+      "https://dblp.org/rec/conf/acl/ChangCWC025",
+      "10.18653/v1/2025.acl-long.1074"
+    ],
+    "2025-acl-long-1085": [
+      "2025-acl-long-1085",
+      "CoreEval: Automatically Building Contamination-Resilient Datasets with Real-World Knowledge toward Reliable LLM Evaluation",
+      "dblp:conf/acl/ZhaoWTZWLLX25",
+      "https://dblp.org/rec/conf/acl/ZhaoWTZWLLX25",
+      "10.18653/v1/2025.acl-long.1085"
+    ],
+    "2025-acl-long-1095": [
+      "2025-acl-long-1095",
+      "LESA: Learnable LLM Layer Scaling-Up",
+      "dblp:conf/acl/YangCMYC0Z25",
+      "https://dblp.org/rec/conf/acl/YangCMYC0Z25",
+      "10.18653/v1/2025.acl-long.1095"
+    ],
+    "2025-acl-long-1106": [
+      "2025-acl-long-1106",
+      "Retrieval-Augmented Fine-Tuning With Preference Optimization For Visual Program Generation",
+      "dblp:conf/acl/KangCJJLCL25",
+      "https://dblp.org/rec/conf/acl/KangCJJLCL25",
+      "10.18653/v1/2025.acl-long.1106"
+    ],
+    "2025-acl-long-1117": [
+      "2025-acl-long-1117",
+      "“What do you call a dog that is incontrovertibly true? Dogma”: Testing LLM Generalization through Humor",
+      "dblp:conf/acl/CocchieriRITM25",
+      "https://dblp.org/rec/conf/acl/CocchieriRITM25",
+      "10.18653/v1/2025.acl-long.1117"
+    ],
+    "2025-acl-long-1127": [
+      "2025-acl-long-1127",
+      "DRAE: Dynamic Retrieval-Augmented Expert Networks for Lifelong Learning and Task Adaptation in Robotics",
+      "dblp:conf/acl/LongCJS25",
+      "https://dblp.org/rec/conf/acl/LongCJS25",
+      "10.18653/v1/2025.acl-long.1127"
+    ],
+    "2025-acl-long-113": [
+      "2025-acl-long-113",
+      "How Much Do Encoder Models Know About Word Senses?",
+      "dblp:conf/acl/TegliaTN25",
+      "https://dblp.org/rec/conf/acl/TegliaTN25",
+      "10.18653/v1/2025.acl-long.113"
+    ],
+    "2025-acl-long-1138": [
+      "2025-acl-long-1138",
+      "FCMR: Robust Evaluation of Financial Cross-Modal Multi-Hop Reasoning",
+      "dblp:conf/acl/KimKK25",
+      "https://dblp.org/rec/conf/acl/KimKK25",
+      "10.18653/v1/2025.acl-long.1138"
+    ],
+    "2025-acl-long-1149": [
+      "2025-acl-long-1149",
+      "MPO: Multilingual Safety Alignment via Reward Gap Optimization",
+      "dblp:conf/acl/ZhaoHDWZGZZ0CL25",
+      "https://dblp.org/rec/conf/acl/ZhaoHDWZGZZ0CL25",
+      "10.18653/v1/2025.acl-long.1149"
+    ],
+    "2025-acl-long-1159": [
+      "2025-acl-long-1159",
+      "Graph of Records: Boosting Retrieval Augmented Generation for Long-context Summarization with Graphs",
+      "dblp:conf/acl/ZhangFY25",
+      "https://dblp.org/rec/conf/acl/ZhangFY25",
+      "10.18653/v1/2025.acl-long.1159"
+    ],
+    "2025-acl-long-1170": [
+      "2025-acl-long-1170",
+      "AgentDropout: Dynamic Agent Elimination for Token-Efficient and High-Performance LLM-Based Multi-Agent Collaboration",
+      "dblp:conf/acl/WangW00Z0025",
+      "https://dblp.org/rec/conf/acl/WangW00Z0025",
+      "10.18653/v1/2025.acl-long.1170"
+    ],
+    "2025-acl-long-1181": [
+      "2025-acl-long-1181",
+      "Evaluating the Evaluation of Diversity in Commonsense Generation",
+      "dblp:conf/acl/ZhangPB25",
+      "https://dblp.org/rec/conf/acl/ZhangPB25",
+      "10.18653/v1/2025.acl-long.1181"
+    ],
+    "2025-acl-long-1191": [
+      "2025-acl-long-1191",
+      "Dialogue-RAG: Enhancing Retrieval for LLMs via Node-Linking Utterance Rewriting",
+      "dblp:conf/acl/0002XLWS025",
+      "https://dblp.org/rec/conf/acl/0002XLWS025",
+      "10.18653/v1/2025.acl-long.1191"
+    ],
+    "2025-acl-long-1202": [
+      "2025-acl-long-1202",
+      "Graph Counselor: Adaptive Graph Exploration via Multi-Agent Synergy to Enhance LLM Reasoning",
+      "dblp:conf/acl/GaoZALNQL25",
+      "https://dblp.org/rec/conf/acl/GaoZALNQL25",
+      "10.18653/v1/2025.acl-long.1202"
+    ],
+    "2025-acl-long-1213": [
+      "2025-acl-long-1213",
+      "Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models via a Multi-Paradigm Perspective",
+      "dblp:conf/acl/YuZZLZZKAWYW25",
+      "https://dblp.org/rec/conf/acl/YuZZLZZKAWYW25",
+      "10.18653/v1/2025.acl-long.1213"
+    ],
+    "2025-acl-long-1223": [
+      "2025-acl-long-1223",
+      "Unravelling the Logic: Investigating the Generalisation of Transformers in Numerical Satisfiability Problems",
+      "dblp:conf/acl/MadusankaVZPB25",
+      "https://dblp.org/rec/conf/acl/MadusankaVZPB25",
+      "10.18653/v1/2025.acl-long.1223"
+    ],
+    "2025-acl-long-123": [
+      "2025-acl-long-123",
+      "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+      "dblp:conf/acl/0003KLJNKPSC25",
+      "https://dblp.org/rec/conf/acl/0003KLJNKPSC25",
+      "10.18653/v1/2025.acl-long.123"
+    ],
+    "2025-acl-long-1234": [
+      "2025-acl-long-1234",
+      "ASPERA: A Simulated Environment to Evaluate Planning for Complex Action Execution",
+      "dblp:conf/acl/CocaGZ0TBASJ25",
+      "https://dblp.org/rec/conf/acl/CocaGZ0TBASJ25",
+      "10.18653/v1/2025.acl-long.1234"
+    ],
+    "2025-acl-long-1245": [
+      "2025-acl-long-1245",
+      "On Many-Shot In-Context Learning for Long-Context Evaluation",
+      "dblp:conf/acl/ZouK025",
+      "https://dblp.org/rec/conf/acl/ZouK025",
+      "10.18653/v1/2025.acl-long.1245"
+    ],
+    "2025-acl-long-1255": [
+      "2025-acl-long-1255",
+      "Language Fusion for Parameter-Efficient Cross-lingual Transfer",
+      "dblp:conf/acl/BorchertVMW25",
+      "https://dblp.org/rec/conf/acl/BorchertVMW25",
+      "10.18653/v1/2025.acl-long.1255"
+    ],
+    "2025-acl-long-1266": [
+      "2025-acl-long-1266",
+      "LLM Agents Making Agent Tools",
+      "dblp:conf/acl/WolfleinFTAK25",
+      "https://dblp.org/rec/conf/acl/WolfleinFTAK25",
+      "10.18653/v1/2025.acl-long.1266"
+    ],
+    "2025-acl-long-1277": [
+      "2025-acl-long-1277",
+      "Mixtures of In-Context Learners",
+      "dblp:conf/acl/HongKPMM25",
+      "https://dblp.org/rec/conf/acl/HongKPMM25",
+      "10.18653/v1/2025.acl-long.1277"
+    ],
+    "2025-acl-long-1287": [
+      "2025-acl-long-1287",
+      "InductionBench: LLMs Fail in the Simplest Complexity Class",
+      "dblp:conf/acl/HuaWSPJW25",
+      "https://dblp.org/rec/conf/acl/HuaWSPJW25",
+      "10.18653/v1/2025.acl-long.1287"
+    ],
+    "2025-acl-long-1298": [
+      "2025-acl-long-1298",
+      "Exploring Multimodal Relation Extraction of Hierarchical Tabular Data with Multi-task Learning",
+      "dblp:conf/acl/ZhangSQJZ025",
+      "https://dblp.org/rec/conf/acl/ZhangSQJZ025",
+      "10.18653/v1/2025.acl-long.1298"
+    ],
+    "2025-acl-long-1309": [
+      "2025-acl-long-1309",
+      "Colloquial Singaporean English Style Transfer with Fine-Grained Explainable Control",
+      "dblp:conf/acl/LiangVXCC0L25",
+      "https://dblp.org/rec/conf/acl/LiangVXCC0L25",
+      "10.18653/v1/2025.acl-long.1309"
+    ],
+    "2025-acl-long-1319": [
+      "2025-acl-long-1319",
+      "I0T: Embedding Standardization Method Towards Zero Modality Gap",
+      "dblp:conf/acl/AnKTS25",
+      "https://dblp.org/rec/conf/acl/AnKTS25",
+      "10.18653/v1/2025.acl-long.1319"
+    ],
+    "2025-acl-long-1330": [
+      "2025-acl-long-1330",
+      "Just a Scratch: Enhancing LLM Capabilities for Self-harm Detection through Intent Differentiation and Emoji Interpretation",
+      "dblp:conf/acl/GhoshSSCE25",
+      "https://dblp.org/rec/conf/acl/GhoshSSCE25",
+      "10.18653/v1/2025.acl-long.1330"
+    ],
+    "2025-acl-long-134": [
+      "2025-acl-long-134",
+      "uMedSum: A Unified Framework for Clinical Abstractive Summarization",
+      "dblp:conf/acl/NagarLLSDKKTT25",
+      "https://dblp.org/rec/conf/acl/NagarLLSDKKTT25",
+      "10.18653/v1/2025.acl-long.134"
+    ],
+    "2025-acl-long-1341": [
+      "2025-acl-long-1341",
+      "LLM\\timesMapReduce: Simplified Long-Sequence Processing using Large Language Models",
+      "dblp:conf/acl/ZhouLCWCLW0T0S025",
+      "https://dblp.org/rec/conf/acl/ZhouLCWCLW0T0S025",
+      "10.18653/v1/2025.acl-long.1341"
+    ],
+    "2025-acl-long-1352": [
+      "2025-acl-long-1352",
+      "GRAT: Guiding Retrieval-Augmented Reasoning through Process Rewards Tree Search",
+      "dblp:conf/acl/Peng025",
+      "https://dblp.org/rec/conf/acl/Peng025",
+      "10.18653/v1/2025.acl-long.1352"
+    ],
+    "2025-acl-long-1362": [
+      "2025-acl-long-1362",
+      "Temporal reasoning for timeline summarisation in social media",
+      "dblp:conf/acl/SongAAL25",
+      "https://dblp.org/rec/conf/acl/SongAAL25",
+      "10.18653/v1/2025.acl-long.1362"
+    ],
+    "2025-acl-long-1373": [
+      "2025-acl-long-1373",
+      "DISC: Plug-and-Play Decoding Intervention with Similarity of Characters for Chinese Spelling Check",
+      "dblp:conf/acl/Qiao0LLZZLZH25",
+      "https://dblp.org/rec/conf/acl/Qiao0LLZZLZH25",
+      "10.18653/v1/2025.acl-long.1373"
+    ],
+    "2025-acl-long-1384": [
+      "2025-acl-long-1384",
+      "Probing Relative Interaction and Dynamic Calibration in Multi-modal Entity Alignment",
+      "dblp:conf/acl/LiC00W25",
+      "https://dblp.org/rec/conf/acl/LiC00W25",
+      "10.18653/v1/2025.acl-long.1384"
+    ],
+    "2025-acl-long-1394": [
+      "2025-acl-long-1394",
+      "Pretraining Context Compressor for Large Language Models with Embedding-Based Memory",
+      "dblp:conf/acl/DaiLHZZWXL25",
+      "https://dblp.org/rec/conf/acl/DaiLHZZWXL25",
+      "10.18653/v1/2025.acl-long.1394"
+    ],
+    "2025-acl-long-1405": [
+      "2025-acl-long-1405",
+      "SEAL: Scaling to Emphasize Attention for Long-Context Retrieval",
+      "dblp:conf/acl/LeeSJCP25",
+      "https://dblp.org/rec/conf/acl/LeeSJCP25",
+      "10.18653/v1/2025.acl-long.1405"
+    ],
+    "2025-acl-long-1416": [
+      "2025-acl-long-1416",
+      "Data Caricatures: On the Representation of African American Language in Pretraining Corpora",
+      "dblp:conf/acl/DeasVAGPKSM25",
+      "https://dblp.org/rec/conf/acl/DeasVAGPKSM25",
+      "10.18653/v1/2025.acl-long.1416"
+    ],
+    "2025-acl-long-1426": [
+      "2025-acl-long-1426",
+      "FinMME: Benchmark Dataset for Financial Multi-Modal Reasoning Evaluation",
+      "dblp:conf/acl/0002KY0H0PLJLHZ25",
+      "https://dblp.org/rec/conf/acl/0002KY0H0PLJLHZ25",
+      "10.18653/v1/2025.acl-long.1426"
+    ],
+    "2025-acl-long-1437": [
+      "2025-acl-long-1437",
+      "Time-MQA: Time Series Multi-Task Question Answering with Context Enhancement",
+      "dblp:conf/acl/KongYHDZW0W25",
+      "https://dblp.org/rec/conf/acl/KongYHDZW0W25",
+      "10.18653/v1/2025.acl-long.1437"
+    ],
+    "2025-acl-long-1448": [
+      "2025-acl-long-1448",
+      "Theorem Prover as a Judge for Synthetic Data Generation",
+      "dblp:conf/acl/LeangHLC25",
+      "https://dblp.org/rec/conf/acl/LeangHLC25",
+      "10.18653/v1/2025.acl-long.1448"
+    ],
+    "2025-acl-long-145": [
+      "2025-acl-long-145",
+      "Ensemble Watermarks for Large Language Models",
+      "dblp:conf/acl/NiessK25",
+      "https://dblp.org/rec/conf/acl/NiessK25",
+      "10.18653/v1/2025.acl-long.145"
+    ],
+    "2025-acl-long-1458": [
+      "2025-acl-long-1458",
+      "Stochastic Chameleons: Irrelevant Context Hallucinations Reveal Class-Based (Mis)Generalization in LLMs",
+      "dblp:conf/acl/Cheng0RC25",
+      "https://dblp.org/rec/conf/acl/Cheng0RC25",
+      "10.18653/v1/2025.acl-long.1458"
+    ],
+    "2025-acl-long-1469": [
+      "2025-acl-long-1469",
+      "CLIPErase: Efficient Unlearning of Visual-Textual Associations in CLIP",
+      "dblp:conf/acl/YangDWCT025",
+      "https://dblp.org/rec/conf/acl/YangDWCT025",
+      "10.18653/v1/2025.acl-long.1469"
+    ],
+    "2025-acl-long-1480": [
+      "2025-acl-long-1480",
+      "ETF: An Entity Tracing Framework for Hallucination Detection in Code Summaries",
+      "dblp:conf/acl/MaharajMTKSKMB25",
+      "https://dblp.org/rec/conf/acl/MaharajMTKSKMB25",
+      "10.18653/v1/2025.acl-long.1480"
+    ],
+    "2025-acl-long-1490": [
+      "2025-acl-long-1490",
+      "Benchmarking LLMs and LLM-based Agents in Practical Vulnerability Detection for Code Repositories",
+      "dblp:conf/acl/YildizTLF0D25",
+      "https://dblp.org/rec/conf/acl/YildizTLF0D25",
+      "10.18653/v1/2025.acl-long.1490"
+    ],
+    "2025-acl-long-1501": [
+      "2025-acl-long-1501",
+      "Negative Matters: Multi-Granularity Hard-Negative Synthesis and Anchor-Token-Aware Pooling for Enhanced Text Embeddings",
+      "dblp:conf/acl/Pan0LD0L025",
+      "https://dblp.org/rec/conf/acl/Pan0LD0L025",
+      "10.18653/v1/2025.acl-long.1501"
+    ],
+    "2025-acl-long-1512": [
+      "2025-acl-long-1512",
+      "It’s Not a Walk in the Park! Challenges of Idiom Translation in Speech-to-text Systems",
+      "dblp:conf/acl/ZaitovaAXKMA25",
+      "https://dblp.org/rec/conf/acl/ZaitovaAXKMA25",
+      "10.18653/v1/2025.acl-long.1512"
+    ],
+    "2025-acl-long-1522": [
+      "2025-acl-long-1522",
+      "Theory of Mind in Large Language Models: Assessment and Enhancement",
+      "dblp:conf/acl/0002JQT25",
+      "https://dblp.org/rec/conf/acl/0002JQT25",
+      "10.18653/v1/2025.acl-long.1522"
+    ],
+    "2025-acl-long-1533": [
+      "2025-acl-long-1533",
+      "Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval",
+      "dblp:conf/acl/AlomariSZT25",
+      "https://dblp.org/rec/conf/acl/AlomariSZT25",
+      "10.18653/v1/2025.acl-long.1533"
+    ],
+    "2025-acl-long-1544": [
+      "2025-acl-long-1544",
+      "PKU-SafeRLHF: Towards Multi-Level Safety Alignment for LLMs with Human Preference",
+      "dblp:conf/acl/JiHZ0DZQZWLHG025",
+      "https://dblp.org/rec/conf/acl/JiHZ0DZQZWLHG025",
+      "10.18653/v1/2025.acl-long.1544"
+    ],
+    "2025-acl-long-155": [
+      "2025-acl-long-155",
+      "Iron Sharpens Iron: Defending Against Attacks in Machine-Generated Text Detection with Adversarial Training",
+      "dblp:conf/acl/LiZLSL25",
+      "https://dblp.org/rec/conf/acl/LiZLSL25",
+      "10.18653/v1/2025.acl-long.155"
+    ],
+    "2025-acl-long-1554": [
+      "2025-acl-long-1554",
+      "A Multi-Agent Framework for Mitigating Dialect Biases in Privacy Policy Question-Answering Systems",
+      "dblp:conf/acl/KlisuraTGBYPR25",
+      "https://dblp.org/rec/conf/acl/KlisuraTGBYPR25",
+      "10.18653/v1/2025.acl-long.1554"
+    ],
+    "2025-acl-long-1566": [
+      "2025-acl-long-1566",
+      "Magnet: Multi-turn Tool-use Data Synthesis and Distillation via Graph Translation",
+      "dblp:conf/acl/Yin0HYJCGLCLPP25",
+      "https://dblp.org/rec/conf/acl/Yin0HYJCGLCLPP25",
+      "10.18653/v1/2025.acl-long.1566"
+    ],
+    "2025-acl-long-1577": [
+      "2025-acl-long-1577",
+      "KRISTEVA: Close Reading as a Novel Task for Benchmarking Interpretive Reasoning",
+      "dblp:conf/acl/SuiRLMDSBC25",
+      "https://dblp.org/rec/conf/acl/SuiRLMDSBC25",
+      "10.18653/v1/2025.acl-long.1577"
+    ],
+    "2025-acl-long-1587": [
+      "2025-acl-long-1587",
+      "FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation",
+      "dblp:conf/acl/BayatZMW25",
+      "https://dblp.org/rec/conf/acl/BayatZMW25",
+      "10.18653/v1/2025.acl-long.1587"
+    ],
+    "2025-acl-long-1598": [
+      "2025-acl-long-1598",
+      "TETRIS: Optimal Draft Token Selection for Batch Speculative Decoding",
+      "dblp:conf/acl/WuZVPRL25",
+      "https://dblp.org/rec/conf/acl/WuZVPRL25",
+      "10.18653/v1/2025.acl-long.1598"
+    ],
+    "2025-acl-long-166": [
+      "2025-acl-long-166",
+      "Revisiting Common Assumptions about Arabic Dialects in NLP",
+      "dblp:conf/acl/KelegGM25",
+      "https://dblp.org/rec/conf/acl/KelegGM25",
+      "10.18653/v1/2025.acl-long.166"
+    ],
+    "2025-acl-long-17": [
+      "2025-acl-long-17",
+      "FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models",
+      "dblp:conf/acl/00010G00NC25",
+      "https://dblp.org/rec/conf/acl/00010G00NC25",
+      "10.18653/v1/2025.acl-long.17"
+    ],
+    "2025-acl-long-177": [
+      "2025-acl-long-177",
+      "Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations",
+      "dblp:conf/acl/XiangLDF25",
+      "https://dblp.org/rec/conf/acl/XiangLDF25",
+      "10.18653/v1/2025.acl-long.177"
+    ],
+    "2025-acl-long-187": [
+      "2025-acl-long-187",
+      "LongReward: Improving Long-context Large Language Models with AI Feedback",
+      "dblp:conf/acl/ZhangHLCHNHDFL25",
+      "https://dblp.org/rec/conf/acl/ZhangHLCHNHDFL25",
+      "10.18653/v1/2025.acl-long.187"
+    ],
+    "2025-acl-long-198": [
+      "2025-acl-long-198",
+      "FR-Spec: Accelerating Large-Vocabulary Language Models via Frequency-Ranked Speculative Sampling",
+      "dblp:conf/acl/ZhaoPHZAHZZLZZW25",
+      "https://dblp.org/rec/conf/acl/ZhaoPHZAHZZLZZW25",
+      "10.18653/v1/2025.acl-long.198"
+    ],
+    "2025-acl-long-209": [
+      "2025-acl-long-209",
+      "The Impact of Token Granularity on the Predictive Power of Language Model Surprisal",
+      "dblp:conf/acl/OhS25",
+      "https://dblp.org/rec/conf/acl/OhS25",
+      "10.18653/v1/2025.acl-long.209"
+    ],
+    "2025-acl-long-219": [
+      "2025-acl-long-219",
+      "Can LLMs Simulate L2-English Dialogue? An Information-Theoretic Analysis of L1-Dependent Biases",
+      "dblp:conf/acl/GaoWKYQR0YL25",
+      "https://dblp.org/rec/conf/acl/GaoWKYQR0YL25",
+      "10.18653/v1/2025.acl-long.219"
+    ],
+    "2025-acl-long-230": [
+      "2025-acl-long-230",
+      "SafeRAG: Benchmarking Security in Retrieval-Augmented Generation of Large Language Model",
+      "dblp:conf/acl/0001NLZWXFTZYSW25",
+      "https://dblp.org/rec/conf/acl/0001NLZWXFTZYSW25",
+      "10.18653/v1/2025.acl-long.230"
+    ],
+    "2025-acl-long-241": [
+      "2025-acl-long-241",
+      "A Silver Bullet or a Compromise for Full Attention? A Comprehensive Study of Gist Token-based Context Compression",
+      "dblp:conf/acl/DengZMLH0D25",
+      "https://dblp.org/rec/conf/acl/DengZMLH0D25",
+      "10.18653/v1/2025.acl-long.241"
+    ],
+    "2025-acl-long-251": [
+      "2025-acl-long-251",
+      "Stepwise Reasoning Disruption Attack of LLMs",
+      "dblp:conf/acl/PengWZZWJ0G025",
+      "https://dblp.org/rec/conf/acl/PengWZZWJ0G025",
+      "10.18653/v1/2025.acl-long.251"
+    ],
+    "2025-acl-long-262": [
+      "2025-acl-long-262",
+      "Learning to Reason from Feedback at Test-Time",
+      "dblp:conf/acl/LiL025",
+      "https://dblp.org/rec/conf/acl/LiL025",
+      "10.18653/v1/2025.acl-long.262"
+    ],
+    "2025-acl-long-27": [
+      "2025-acl-long-27",
+      "RuleArena: A Benchmark for Rule-Guided Reasoning with LLMs in Real-World Scenarios",
+      "dblp:conf/acl/ZhouHPCWYW25",
+      "https://dblp.org/rec/conf/acl/ZhouHPCWYW25",
+      "10.18653/v1/2025.acl-long.27"
+    ],
+    "2025-acl-long-273": [
+      "2025-acl-long-273",
+      "ATRI: Mitigating Multilingual Audio Text Retrieval Inconsistencies by Reducing Data Distribution Errors",
+      "dblp:conf/acl/Yin0YYRZLZ25",
+      "https://dblp.org/rec/conf/acl/Yin0YYRZLZ25",
+      "10.18653/v1/2025.acl-long.273"
+    ],
+    "2025-acl-long-284": [
+      "2025-acl-long-284",
+      "Making FETCH! Happen: Finding Emergent Dog Whistles Through Common Habitats",
+      "dblp:conf/acl/SasseACLD25",
+      "https://dblp.org/rec/conf/acl/SasseACLD25",
+      "10.18653/v1/2025.acl-long.284"
+    ],
+    "2025-acl-long-294": [
+      "2025-acl-long-294",
+      "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+      "dblp:conf/acl/KumarJ25",
+      "https://dblp.org/rec/conf/acl/KumarJ25",
+      "10.18653/v1/2025.acl-long.294"
+    ],
+    "2025-acl-long-305": [
+      "2025-acl-long-305",
+      "Disentangling Biased Knowledge from Reasoning in Large Language Models via Machine Unlearning",
+      "dblp:conf/acl/LiuMWPBSJ25",
+      "https://dblp.org/rec/conf/acl/LiuMWPBSJ25",
+      "10.18653/v1/2025.acl-long.305"
+    ],
+    "2025-acl-long-316": [
+      "2025-acl-long-316",
+      "Efficiently Identifying Watermarked Segments in Mixed-Source Texts",
+      "dblp:conf/acl/ZhaoLWL25",
+      "https://dblp.org/rec/conf/acl/ZhaoLWL25",
+      "10.18653/v1/2025.acl-long.316"
+    ],
+    "2025-acl-long-326": [
+      "2025-acl-long-326",
+      "Unsolvable Problem Detection: Robust Understanding Evaluation for Large Multimodal Models",
+      "dblp:conf/acl/MiyaiYZMYILLLA25",
+      "https://dblp.org/rec/conf/acl/MiyaiYZMYILLLA25",
+      "10.18653/v1/2025.acl-long.326"
+    ],
+    "2025-acl-long-337": [
+      "2025-acl-long-337",
+      "BERT-like Models for Slavic Morpheme Segmentation",
+      "dblp:conf/acl/MorozovAGGL25",
+      "https://dblp.org/rec/conf/acl/MorozovAGGL25",
+      "10.18653/v1/2025.acl-long.337"
+    ],
+    "2025-acl-long-348": [
+      "2025-acl-long-348",
+      "Towards Effective Extraction and Evaluation of Factual Claims",
+      "dblp:conf/acl/Metropolitansky25",
+      "https://dblp.org/rec/conf/acl/Metropolitansky25",
+      "10.18653/v1/2025.acl-long.348"
+    ],
+    "2025-acl-long-358": [
+      "2025-acl-long-358",
+      "DRAG: Distilling RAG for SLMs from LLMs to Transfer Knowledge and Mitigate Hallucination via Evidence and Graph-based Distillation",
+      "dblp:conf/acl/ChenMLKBS25",
+      "https://dblp.org/rec/conf/acl/ChenMLKBS25",
+      "10.18653/v1/2025.acl-long.358"
+    ],
+    "2025-acl-long-369": [
+      "2025-acl-long-369",
+      "OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use",
+      "dblp:conf/acl/HuXYWX0YTZZLXWX25",
+      "https://dblp.org/rec/conf/acl/HuXYWX0YTZZLXWX25",
+      "10.18653/v1/2025.acl-long.369"
+    ],
+    "2025-acl-long-38": [
+      "2025-acl-long-38",
+      "Evaluation of LLM Vulnerabilities to Being Misused for Personalized Disinformation Generation",
+      "dblp:conf/acl/ZugecovaMSMKMM25",
+      "https://dblp.org/rec/conf/acl/ZugecovaMSMKMM25",
+      "10.18653/v1/2025.acl-long.38"
+    ],
+    "2025-acl-long-380": [
+      "2025-acl-long-380",
+      "Commonsense Reasoning in Arab Culture",
+      "dblp:conf/acl/SadallahTAAAQKS25",
+      "https://dblp.org/rec/conf/acl/SadallahTAAAQKS25",
+      "10.18653/v1/2025.acl-long.380"
+    ],
+    "2025-acl-long-390": [
+      "2025-acl-long-390",
+      "CER: Confidence Enhanced Reasoning in LLMs",
+      "dblp:conf/acl/RazghandiHB25",
+      "https://dblp.org/rec/conf/acl/RazghandiHB25",
+      "10.18653/v1/2025.acl-long.390"
+    ],
+    "2025-acl-long-401": [
+      "2025-acl-long-401",
+      "Building a Long Text Privacy Policy Corpus with Multi-Class Labels",
+      "dblp:conf/acl/Marotta-Wurgler25",
+      "https://dblp.org/rec/conf/acl/Marotta-Wurgler25",
+      "10.18653/v1/2025.acl-long.401"
+    ],
+    "2025-acl-long-412": [
+      "2025-acl-long-412",
+      "Explicit and Implicit Data Augmentation for Social Event Detection",
+      "dblp:conf/acl/MaW000QL0N25",
+      "https://dblp.org/rec/conf/acl/MaW000QL0N25",
+      "10.18653/v1/2025.acl-long.412"
+    ],
+    "2025-acl-long-422": [
+      "2025-acl-long-422",
+      "Sinhala Encoder-only Language Models and Evaluation",
+      "dblp:conf/acl/RanasingheHPPUA25",
+      "https://dblp.org/rec/conf/acl/RanasingheHPPUA25",
+      "10.18653/v1/2025.acl-long.422"
+    ],
+    "2025-acl-long-433": [
+      "2025-acl-long-433",
+      "Large Language and Reasoning Models are Shallow Disjunctive Reasoners",
+      "dblp:conf/acl/KhalidNS25",
+      "https://dblp.org/rec/conf/acl/KhalidNS25",
+      "10.18653/v1/2025.acl-long.433"
+    ],
+    "2025-acl-long-444": [
+      "2025-acl-long-444",
+      "Improving Preference Extraction In LLMs By Identifying Latent Knowledge Through Classifying Probes",
+      "dblp:conf/acl/MaiyaLDK25",
+      "https://dblp.org/rec/conf/acl/MaiyaLDK25",
+      "10.18653/v1/2025.acl-long.444"
+    ],
+    "2025-acl-long-454": [
+      "2025-acl-long-454",
+      "DiffuseDef: Improved Robustness to Adversarial Attacks via Iterative Denoising",
+      "dblp:conf/acl/0003ZRS25",
+      "https://dblp.org/rec/conf/acl/0003ZRS25",
+      "10.18653/v1/2025.acl-long.454"
+    ],
+    "2025-acl-long-465": [
+      "2025-acl-long-465",
+      "Boosting Long-Context Information Seeking via Query-Guided Activation Refilling",
+      "dblp:conf/acl/QianLZDL25",
+      "https://dblp.org/rec/conf/acl/QianLZDL25",
+      "10.18653/v1/2025.acl-long.465"
+    ],
+    "2025-acl-long-476": [
+      "2025-acl-long-476",
+      "Agents Under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks",
+      "dblp:conf/acl/Shahroz0YF025",
+      "https://dblp.org/rec/conf/acl/Shahroz0YF025",
+      "10.18653/v1/2025.acl-long.476"
+    ],
+    "2025-acl-long-486": [
+      "2025-acl-long-486",
+      "Faster Speculative Decoding via Effective Draft Decoder with Pruned Candidate Tree",
+      "dblp:conf/acl/ZhengW25",
+      "https://dblp.org/rec/conf/acl/ZhengW25",
+      "10.18653/v1/2025.acl-long.486"
+    ],
+    "2025-acl-long-49": [
+      "2025-acl-long-49",
+      "PunchBench: Benchmarking MLLMs in Multimodal Punchline Comprehension",
+      "dblp:conf/acl/OuyangLLLZM0025",
+      "https://dblp.org/rec/conf/acl/OuyangLLLZM0025",
+      "10.18653/v1/2025.acl-long.49"
+    ],
+    "2025-acl-long-497": [
+      "2025-acl-long-497",
+      "Multi-level Relevance Document Identifier Learning for Generative Retrieval",
+      "dblp:conf/acl/ZhangLJZZLZLZ25",
+      "https://dblp.org/rec/conf/acl/ZhangLJZZLZLZ25",
+      "10.18653/v1/2025.acl-long.497"
+    ],
+    "2025-acl-long-508": [
+      "2025-acl-long-508",
+      "WebWalker: Benchmarking LLMs in Web Traversal",
+      "dblp:conf/acl/0007Y0WXFZ0ZXH25",
+      "https://dblp.org/rec/conf/acl/0007Y0WXFZ0ZXH25",
+      "10.18653/v1/2025.acl-long.508"
+    ],
+    "2025-acl-long-518": [
+      "2025-acl-long-518",
+      "PrivaCI-Bench: Evaluating Privacy with Contextual Integrity and Legal Compliance",
+      "dblp:conf/acl/0003HJCHHCHS25",
+      "https://dblp.org/rec/conf/acl/0003HJCHHCHS25",
+      "10.18653/v1/2025.acl-long.518"
+    ],
+    "2025-acl-long-529": [
+      "2025-acl-long-529",
+      "SCOPE: Optimizing Key-Value Cache Compression in Long-context Generation",
+      "dblp:conf/acl/0007WZL0Z25",
+      "https://dblp.org/rec/conf/acl/0007WZL0Z25",
+      "10.18653/v1/2025.acl-long.529"
+    ],
+    "2025-acl-long-540": [
+      "2025-acl-long-540",
+      "Knowledge-Augmented Multimodal Clinical Rationale Generation for Disease Diagnosis with Small Language Models",
+      "dblp:conf/acl/Niu00B0XS025",
+      "https://dblp.org/rec/conf/acl/Niu00B0XS025",
+      "10.18653/v1/2025.acl-long.540"
+    ],
+    "2025-acl-long-551": [
+      "2025-acl-long-551",
+      "Pre^3: Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation",
+      "dblp:conf/acl/ChenBWWDYGLWC25",
+      "https://dblp.org/rec/conf/acl/ChenBWWDYGLWC25",
+      "10.18653/v1/2025.acl-long.551"
+    ],
+    "2025-acl-long-561": [
+      "2025-acl-long-561",
+      "Divide-Then-Align: Honest Alignment based on the Knowledge Boundary of RAG",
+      "dblp:conf/acl/SunXCLWCSWWW25",
+      "https://dblp.org/rec/conf/acl/SunXCLWCSWWW25",
+      "10.18653/v1/2025.acl-long.561"
+    ],
+    "2025-acl-long-572": [
+      "2025-acl-long-572",
+      "PaSa: An LLM Agent for Comprehensive Academic Paper Search",
+      "dblp:conf/acl/HeHFLZLE25",
+      "https://dblp.org/rec/conf/acl/HeHFLZLE25",
+      "10.18653/v1/2025.acl-long.572"
+    ],
+    "2025-acl-long-583": [
+      "2025-acl-long-583",
+      "GODBench: A Benchmark for Multimodal Large Language Models in Video Comment Art",
+      "dblp:conf/acl/LeiZLLLGL025",
+      "https://dblp.org/rec/conf/acl/LeiZLLLGL025",
+      "10.18653/v1/2025.acl-long.583"
+    ],
+    "2025-acl-long-59": [
+      "2025-acl-long-59",
+      "Interlocking-free Selective Rationalization Through Genetic-based Learning",
+      "dblp:conf/acl/RuggeriS25",
+      "https://dblp.org/rec/conf/acl/RuggeriS25",
+      "10.18653/v1/2025.acl-long.59"
+    ],
+    "2025-acl-long-593": [
+      "2025-acl-long-593",
+      "A Multi-persona Framework for Argument Quality Assessment",
+      "dblp:conf/acl/JinBHSZW0025",
+      "https://dblp.org/rec/conf/acl/JinBHSZW0025",
+      "10.18653/v1/2025.acl-long.593"
+    ],
+    "2025-acl-long-6": [
+      "2025-acl-long-6",
+      "Intuitive Fine-Tuning: Towards Simplifying Alignment into a Single Process",
+      "dblp:conf/acl/HuaQZTL0025",
+      "https://dblp.org/rec/conf/acl/HuaQZTL0025",
+      "10.18653/v1/2025.acl-long.6"
+    ],
+    "2025-acl-long-604": [
+      "2025-acl-long-604",
+      "TreeRL: LLM Reinforcement Learning with On-Policy Tree Search",
+      "dblp:conf/acl/HouHLLTD25",
+      "https://dblp.org/rec/conf/acl/HouHLLTD25",
+      "10.18653/v1/2025.acl-long.604"
+    ],
+    "2025-acl-long-615": [
+      "2025-acl-long-615",
+      "Finding the Sweet Spot: Preference Data Construction for Scaling Preference Optimization",
+      "dblp:conf/acl/XiaoYCNBLL25",
+      "https://dblp.org/rec/conf/acl/XiaoYCNBLL25",
+      "10.18653/v1/2025.acl-long.615"
+    ],
+    "2025-acl-long-625": [
+      "2025-acl-long-625",
+      "SCAR: Data Selection via Style Consistency-Aware Response Ranking for Efficient Instruction-Tuning of Large Language Models",
+      "dblp:conf/acl/0001HVZQH25",
+      "https://dblp.org/rec/conf/acl/0001HVZQH25",
+      "10.18653/v1/2025.acl-long.625"
+    ],
+    "2025-acl-long-636": [
+      "2025-acl-long-636",
+      "Improving Medical Large Vision-Language Models with Abnormal-Aware Feedback",
+      "dblp:conf/acl/0001SS25",
+      "https://dblp.org/rec/conf/acl/0001SS25",
+      "10.18653/v1/2025.acl-long.636"
+    ],
+    "2025-acl-long-647": [
+      "2025-acl-long-647",
+      "\\phi-Decoding: Adaptive Foresight Sampling for Balanced Inference-Time Exploration and Exploitation",
+      "dblp:conf/acl/Xu0MZLL025",
+      "https://dblp.org/rec/conf/acl/Xu0MZLL025",
+      "10.18653/v1/2025.acl-long.647"
+    ],
+    "2025-acl-long-657": [
+      "2025-acl-long-657",
+      "Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding",
+      "dblp:conf/acl/YooYL25",
+      "https://dblp.org/rec/conf/acl/YooYL25",
+      "10.18653/v1/2025.acl-long.657"
+    ],
+    "2025-acl-long-668": [
+      "2025-acl-long-668",
+      "Finite State Automata Inside Transformers with Chain-of-Thought: A Mechanistic Study on State Tracking",
+      "dblp:conf/acl/ZhangDJ0J25",
+      "https://dblp.org/rec/conf/acl/ZhangDJ0J25",
+      "10.18653/v1/2025.acl-long.668"
+    ],
+    "2025-acl-long-679": [
+      "2025-acl-long-679",
+      "HSCR: Hierarchical Self-Contrastive Rewarding for Aligning Medical Vision Language Models",
+      "dblp:conf/acl/JiangZJTWFWL25",
+      "https://dblp.org/rec/conf/acl/JiangZJTWFWL25",
+      "10.18653/v1/2025.acl-long.679"
+    ],
+    "2025-acl-long-689": [
+      "2025-acl-long-689",
+      "MM-Verify: Enhancing Multimodal Reasoning with Chain-of-Thought Verification",
+      "dblp:conf/acl/SunLWYL0ZZ25",
+      "https://dblp.org/rec/conf/acl/SunLWYL0ZZ25",
+      "10.18653/v1/2025.acl-long.689"
+    ],
+    "2025-acl-long-70": [
+      "2025-acl-long-70",
+      "Neural Topic Modeling with Large Language Models in the Loop",
+      "dblp:conf/acl/Yang0XQL0025",
+      "https://dblp.org/rec/conf/acl/Yang0XQL0025",
+      "10.18653/v1/2025.acl-long.70"
+    ],
+    "2025-acl-long-700": [
+      "2025-acl-long-700",
+      "Can MLLMs Understand the Deep Implication Behind Chinese Images?",
+      "dblp:conf/acl/0005FBDHDHLWLQZ25",
+      "https://dblp.org/rec/conf/acl/0005FBDHDHLWLQZ25",
+      "10.18653/v1/2025.acl-long.700"
+    ],
+    "2025-acl-long-711": [
+      "2025-acl-long-711",
+      "EAGLE: Expert-Guided Self-Enhancement for Preference Alignment in Pathology Large Vision-Language Model",
+      "dblp:conf/acl/DingZWZWLCS25",
+      "https://dblp.org/rec/conf/acl/DingZWZWLCS25",
+      "10.18653/v1/2025.acl-long.711"
+    ],
+    "2025-acl-long-721": [
+      "2025-acl-long-721",
+      "Continual Gradient Low-Rank Projection Fine-Tuning for LLMs",
+      "dblp:conf/acl/WangLSJ25",
+      "https://dblp.org/rec/conf/acl/WangLSJ25",
+      "10.18653/v1/2025.acl-long.721"
+    ],
+    "2025-acl-long-732": [
+      "2025-acl-long-732",
+      "Chinese SafetyQA: A Safety Short-form Factuality Benchmark for Large Language Models",
+      "dblp:conf/acl/TanZZCJWLHSZZZ25",
+      "https://dblp.org/rec/conf/acl/TanZZCJWLHSZZZ25",
+      "10.18653/v1/2025.acl-long.732"
+    ],
+    "2025-acl-long-743": [
+      "2025-acl-long-743",
+      "Predicting Turn-Taking and Backchannel in Human-Machine Conversations Using Linguistic, Acoustic, and Visual Signals",
+      "dblp:conf/acl/LinZ0S25",
+      "https://dblp.org/rec/conf/acl/LinZ0S25",
+      "10.18653/v1/2025.acl-long.743"
+    ],
+    "2025-acl-long-753": [
+      "2025-acl-long-753",
+      "MISP-Meeting: A Real-World Dataset with Multimodal Cues for Long-form Meeting Transcription and Summarization",
+      "dblp:conf/acl/HangChenYGS025",
+      "https://dblp.org/rec/conf/acl/HangChenYGS025",
+      "10.18653/v1/2025.acl-long.753"
+    ],
+    "2025-acl-long-764": [
+      "2025-acl-long-764",
+      "Evaluating Design Decisions for Dual Encoder-based Entity Disambiguation",
+      "dblp:conf/acl/RuckerA25",
+      "https://dblp.org/rec/conf/acl/RuckerA25",
+      "10.18653/v1/2025.acl-long.764"
+    ],
+    "2025-acl-long-775": [
+      "2025-acl-long-775",
+      "Agentic Reward Modeling: Integrating Human Preferences with Verifiable Correctness Signals for Reliable Reward Systems",
+      "dblp:conf/acl/0015QW000L25",
+      "https://dblp.org/rec/conf/acl/0015QW000L25",
+      "10.18653/v1/2025.acl-long.775"
+    ],
+    "2025-acl-long-785": [
+      "2025-acl-long-785",
+      "Com^2 : A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models",
+      "dblp:conf/acl/0002D0YDZGL0025",
+      "https://dblp.org/rec/conf/acl/0002D0YDZGL0025",
+      "10.18653/v1/2025.acl-long.785"
+    ],
+    "2025-acl-long-796": [
+      "2025-acl-long-796",
+      "Unmasking Style Sensitivity: A Causal Analysis of Bias Evaluation Instability in Large Language Models",
+      "dblp:conf/acl/0002FZP25",
+      "https://dblp.org/rec/conf/acl/0002FZP25",
+      "10.18653/v1/2025.acl-long.796"
+    ],
+    "2025-acl-long-807": [
+      "2025-acl-long-807",
+      "Task-Specific Information Decomposition for End-to-End Dense Video Captioning",
+      "dblp:conf/acl/LiuZL25",
+      "https://dblp.org/rec/conf/acl/LiuZL25",
+      "10.18653/v1/2025.acl-long.807"
+    ],
+    "2025-acl-long-81": [
+      "2025-acl-long-81",
+      "Real-time Factuality Assessment from Adversarial Feedback",
+      "dblp:conf/acl/ChenHD25",
+      "https://dblp.org/rec/conf/acl/ChenHD25",
+      "10.18653/v1/2025.acl-long.81"
+    ],
+    "2025-acl-long-818": [
+      "2025-acl-long-818",
+      "VoxEval: Benchmarking the Knowledge Understanding Capabilities of End-to-End Spoken Language Models",
+      "dblp:conf/acl/CuiJMK25",
+      "https://dblp.org/rec/conf/acl/CuiJMK25",
+      "10.18653/v1/2025.acl-long.818"
+    ],
+    "2025-acl-long-828": [
+      "2025-acl-long-828",
+      "On Synthesizing Data for Context Attribution in Question Answering",
+      "dblp:conf/acl/RadevskiGSMNHSH25",
+      "https://dblp.org/rec/conf/acl/RadevskiGSMNHSH25",
+      "10.18653/v1/2025.acl-long.828"
+    ],
+    "2025-acl-long-839": [
+      "2025-acl-long-839",
+      "FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation",
+      "dblp:conf/acl/LiZGM0PHWL25",
+      "https://dblp.org/rec/conf/acl/LiZGM0PHWL25",
+      "10.18653/v1/2025.acl-long.839"
+    ],
+    "2025-acl-long-850": [
+      "2025-acl-long-850",
+      "From Sub-Ability Diagnosis to Human-Aligned Generation: Bridging the Gap for Text Length Control via MarkerGen",
+      "dblp:conf/acl/YuanTF0WZSPH025",
+      "https://dblp.org/rec/conf/acl/YuanTF0WZSPH025",
+      "10.18653/v1/2025.acl-long.850"
+    ],
+    "2025-acl-long-860": [
+      "2025-acl-long-860",
+      "Meta-Learning Neural Mechanisms rather than Bayesian Priors",
+      "dblp:conf/acl/GoodaleML25",
+      "https://dblp.org/rec/conf/acl/GoodaleML25",
+      "10.18653/v1/2025.acl-long.860"
+    ],
+    "2025-acl-long-871": [
+      "2025-acl-long-871",
+      "Optimizing Question Semantic Space for Dynamic Retrieval-Augmented Multi-hop Question Answering",
+      "dblp:conf/acl/YeYL00025",
+      "https://dblp.org/rec/conf/acl/YeYL00025",
+      "10.18653/v1/2025.acl-long.871"
+    ],
+    "2025-acl-long-882": [
+      "2025-acl-long-882",
+      "InSerter: Speech Instruction Following with Unsupervised Interleaved Pre-training",
+      "dblp:conf/acl/WangXCGWWYJL25",
+      "https://dblp.org/rec/conf/acl/WangXCGWWYJL25",
+      "10.18653/v1/2025.acl-long.882"
+    ],
+    "2025-acl-long-892": [
+      "2025-acl-long-892",
+      "The Distracting Effect: Understanding Irrelevant Passages in RAG",
+      "dblp:conf/acl/AmirazCFK25",
+      "https://dblp.org/rec/conf/acl/AmirazCFK25",
+      "10.18653/v1/2025.acl-long.892"
+    ],
+    "2025-acl-long-903": [
+      "2025-acl-long-903",
+      "Hierarchical Bracketing Encodings for Dependency Parsing as Tagging",
+      "dblp:conf/acl/Ezquerro0YG25",
+      "https://dblp.org/rec/conf/acl/Ezquerro0YG25",
+      "10.18653/v1/2025.acl-long.903"
+    ],
+    "2025-acl-long-91": [
+      "2025-acl-long-91",
+      "TUNA: Comprehensive Fine-grained Temporal Understanding Evaluation on Dense Dynamic Videos",
+      "dblp:conf/acl/KongZZ0WYJTWZ25",
+      "https://dblp.org/rec/conf/acl/KongZZ0WYJTWZ25",
+      "10.18653/v1/2025.acl-long.91"
+    ],
+    "2025-acl-long-914": [
+      "2025-acl-long-914",
+      "The AI Gap: How Socioeconomic Status Affects Language Technology Interactions",
+      "dblp:conf/acl/BassignanaCH25",
+      "https://dblp.org/rec/conf/acl/BassignanaCH25",
+      "10.18653/v1/2025.acl-long.914"
+    ],
+    "2025-acl-long-924": [
+      "2025-acl-long-924",
+      "HAF-RM: A Hybrid Alignment Framework for Reward Model Training",
+      "dblp:conf/acl/LiuSLWYH0W25",
+      "https://dblp.org/rec/conf/acl/LiuSLWYH0W25",
+      "10.18653/v1/2025.acl-long.924"
+    ],
+    "2025-acl-long-935": [
+      "2025-acl-long-935",
+      "MegaPairs: Massive Data Synthesis for Universal Multimodal Retrieval",
+      "dblp:conf/acl/0001XLLXWZZL25",
+      "https://dblp.org/rec/conf/acl/0001XLLXWZZL25",
+      "10.18653/v1/2025.acl-long.935"
+    ],
+    "2025-acl-long-946": [
+      "2025-acl-long-946",
+      "From Outcomes to Processes: Guiding PRM Learning from ORM for Inference-Time Alignment",
+      "dblp:conf/acl/Xie0YZS25",
+      "https://dblp.org/rec/conf/acl/Xie0YZS25",
+      "10.18653/v1/2025.acl-long.946"
+    ],
+    "2025-acl-long-956": [
+      "2025-acl-long-956",
+      "Déjà Vu? Decoding Repeated Reading from Eye Movements",
+      "dblp:conf/acl/MeiriSHNB25",
+      "https://dblp.org/rec/conf/acl/MeiriSHNB25",
+      "10.18653/v1/2025.acl-long.956"
+    ],
+    "2025-acl-long-967": [
+      "2025-acl-long-967",
+      "Adversarial Alignment with Anchor Dragging Drift (A^3D^2): Multimodal Domain Adaptation with Partially Shifted Modalities",
+      "dblp:conf/acl/SunZHZZ25",
+      "https://dblp.org/rec/conf/acl/SunZHZZ25",
+      "10.18653/v1/2025.acl-long.967"
+    ],
+    "2025-acl-long-978": [
+      "2025-acl-long-978",
+      "Vulnerability of LLMs to Vertically Aligned Text Manipulations",
+      "dblp:conf/acl/LiWHCX0C25",
+      "https://dblp.org/rec/conf/acl/LiWHCX0C25",
+      "10.18653/v1/2025.acl-long.978"
+    ],
+    "2025-acl-long-988": [
+      "2025-acl-long-988",
+      "Improving Language and Modality Transfer in Translation by Character-level Modeling",
+      "dblp:conf/acl/TsiamasDC25",
+      "https://dblp.org/rec/conf/acl/TsiamasDC25",
+      "10.18653/v1/2025.acl-long.988"
+    ],
+    "2025-acl-long-999": [
+      "2025-acl-long-999",
+      "BIG5-CHAT: Shaping LLM Personalities Through Training on Human-Grounded Data",
+      "dblp:conf/acl/Li0LZDS25",
+      "https://dblp.org/rec/conf/acl/Li0LZDS25",
+      "10.18653/v1/2025.acl-long.999"
+    ],
+    "2025-emnlp-main-1008": [
+      "2025-emnlp-main-1008",
+      "On the Same Wavelength? Evaluating Pragmatic Reasoning in Language Models across Broad Concepts",
+      "dblp:conf/emnlp/QiuZTKL25",
+      "https://dblp.org/rec/conf/emnlp/QiuZTKL25",
+      "10.18653/v1/2025.emnlp-main.1008"
+    ],
+    "2025-emnlp-main-1020": [
+      "2025-emnlp-main-1020",
+      "Pointing to a Llama and Call it a Camel: On the Sycophancy of Multimodal Large Language Models",
+      "dblp:conf/emnlp/PiMPLGZZ25",
+      "https://dblp.org/rec/conf/emnlp/PiMPLGZZ25",
+      "10.18653/v1/2025.emnlp-main.1020"
+    ],
+    "2025-emnlp-main-103": [
+      "2025-emnlp-main-103",
+      "Direct Judgement Preference Optimization",
+      "dblp:conf/emnlp/WangXZXJ25",
+      "https://dblp.org/rec/conf/emnlp/WangXZXJ25",
+      "10.18653/v1/2025.emnlp-main.103"
+    ],
+    "2025-emnlp-main-1032": [
+      "2025-emnlp-main-1032",
+      "How Do Large Vision-Language Models See Text in Image? Unveiling the Distinctive Role of OCR Heads",
+      "dblp:conf/emnlp/BaekCRL25",
+      "https://dblp.org/rec/conf/emnlp/BaekCRL25",
+      "10.18653/v1/2025.emnlp-main.1032"
+    ],
+    "2025-emnlp-main-1044": [
+      "2025-emnlp-main-1044",
+      "What are Foundation Models Cooking in the Post-Soviet World?",
+      "dblp:conf/emnlp/LavroukNRX25",
+      "https://dblp.org/rec/conf/emnlp/LavroukNRX25",
+      "10.18653/v1/2025.emnlp-main.1044"
+    ],
+    "2025-emnlp-main-1056": [
+      "2025-emnlp-main-1056",
+      "GAP: a Global Adaptive Pruning Method for Large Language Models",
+      "dblp:conf/emnlp/BanMZLCY25",
+      "https://dblp.org/rec/conf/emnlp/BanMZLCY25",
+      "10.18653/v1/2025.emnlp-main.1056"
+    ],
+    "2025-emnlp-main-1068": [
+      "2025-emnlp-main-1068",
+      "Step Guided Reasoning: Improving Mathematical Reasoning using Guidance Generation and Step Reasoning",
+      "dblp:conf/emnlp/CaoZPCNL25",
+      "https://dblp.org/rec/conf/emnlp/CaoZPCNL25",
+      "10.18653/v1/2025.emnlp-main.1068"
+    ],
+    "2025-emnlp-main-1080": [
+      "2025-emnlp-main-1080",
+      "MUSE: MCTS-Driven Red Teaming Framework for Enhanced Multi-Turn Dialogue Safety in Large Language Models",
+      "dblp:conf/emnlp/YanZWHZPCCG25",
+      "https://dblp.org/rec/conf/emnlp/YanZWHZPCCG25",
+      "10.18653/v1/2025.emnlp-main.1080"
+    ],
+    "2025-emnlp-main-1092": [
+      "2025-emnlp-main-1092",
+      "Unveiling the Response of Large Vision-Language Models to Visually Absent Tokens",
+      "dblp:conf/emnlp/KimRPY25",
+      "https://dblp.org/rec/conf/emnlp/KimRPY25",
+      "10.18653/v1/2025.emnlp-main.1092"
+    ],
+    "2025-emnlp-main-1104": [
+      "2025-emnlp-main-1104",
+      "Learning to Ask: When LLM Agents Meet Unclear Instruction",
+      "dblp:conf/emnlp/WangSLCWLYHJL25",
+      "https://dblp.org/rec/conf/emnlp/WangSLCWLYHJL25",
+      "10.18653/v1/2025.emnlp-main.1104"
+    ],
+    "2025-emnlp-main-1116": [
+      "2025-emnlp-main-1116",
+      "The Ranking Blind Spot: Decision Hijacking in LLM-based Text Ranking",
+      "dblp:conf/emnlp/QianZJJW25",
+      "https://dblp.org/rec/conf/emnlp/QianZJJW25",
+      "10.18653/v1/2025.emnlp-main.1116"
+    ],
+    "2025-emnlp-main-1128": [
+      "2025-emnlp-main-1128",
+      "DiffusionAttacker: Diffusion-Driven Prompt Manipulation for LLM Jailbreak",
+      "dblp:conf/emnlp/WangLZWPHS25",
+      "https://dblp.org/rec/conf/emnlp/WangLZWPHS25",
+      "10.18653/v1/2025.emnlp-main.1128"
+    ],
+    "2025-emnlp-main-1140": [
+      "2025-emnlp-main-1140",
+      "Bias Beware: The Impact of Cognitive Biases on LLM-Driven Product Recommendations",
+      "dblp:conf/emnlp/FilandrianosDLTS25",
+      "https://dblp.org/rec/conf/emnlp/FilandrianosDLTS25",
+      "10.18653/v1/2025.emnlp-main.1140"
+    ],
+    "2025-emnlp-main-115": [
+      "2025-emnlp-main-115",
+      "CondAmbigQA: A Benchmark and Dataset for Conditional Ambiguous Question Answering",
+      "dblp:conf/emnlp/LiLXQ25",
+      "https://dblp.org/rec/conf/emnlp/LiLXQ25",
+      "10.18653/v1/2025.emnlp-main.115"
+    ],
+    "2025-emnlp-main-1152": [
+      "2025-emnlp-main-1152",
+      "Transitive self-consistency evaluation of NLI models without gold labels",
+      "dblp:conf/emnlp/WuL25",
+      "https://dblp.org/rec/conf/emnlp/WuL25",
+      "10.18653/v1/2025.emnlp-main.1152"
+    ],
+    "2025-emnlp-main-1164": [
+      "2025-emnlp-main-1164",
+      "An Interdisciplinary Approach to Human-Centered Machine Translation",
+      "dblp:conf/emnlp/CarpuatABBBBCDDGGKKLMNO25",
+      "https://dblp.org/rec/conf/emnlp/CarpuatABBBBCDDGGKKLMNO25",
+      "10.18653/v1/2025.emnlp-main.1164"
+    ],
+    "2025-emnlp-main-1176": [
+      "2025-emnlp-main-1176",
+      "SPARK: Simulating the Co-evolution of Stance and Topic Dynamics in Online Discourse with LLM-based Agents",
+      "dblp:conf/emnlp/ZhangYNFDH25",
+      "https://dblp.org/rec/conf/emnlp/ZhangYNFDH25",
+      "10.18653/v1/2025.emnlp-main.1176"
+    ],
+    "2025-emnlp-main-1188": [
+      "2025-emnlp-main-1188",
+      "Searching for the Most Human-like Emergent Language",
+      "dblp:conf/emnlp/BoldtM25",
+      "https://dblp.org/rec/conf/emnlp/BoldtM25",
+      "10.18653/v1/2025.emnlp-main.1188"
+    ],
+    "2025-emnlp-main-1200": [
+      "2025-emnlp-main-1200",
+      "TAPS: Tool-Augmented Personalisation via Structured Tagging",
+      "dblp:conf/emnlp/TaktashevaD25",
+      "https://dblp.org/rec/conf/emnlp/TaktashevaD25",
+      "10.18653/v1/2025.emnlp-main.1200"
+    ],
+    "2025-emnlp-main-1213": [
+      "2025-emnlp-main-1213",
+      "Easy as PIE? Identifying Multi-Word Expressions with LLMs",
+      "dblp:conf/emnlp/HashiloniHB25",
+      "https://dblp.org/rec/conf/emnlp/HashiloniHB25",
+      "10.18653/v1/2025.emnlp-main.1213"
+    ],
+    "2025-emnlp-main-1225": [
+      "2025-emnlp-main-1225",
+      "Evaluating the Evaluators: Are readability metrics good measures of readability?",
+      "dblp:conf/emnlp/CacholaKD25",
+      "https://dblp.org/rec/conf/emnlp/CacholaKD25",
+      "10.18653/v1/2025.emnlp-main.1225"
+    ],
+    "2025-emnlp-main-1237": [
+      "2025-emnlp-main-1237",
+      "From Language to Cognition: How LLMs Outgrow the Human Language Network",
+      "dblp:conf/emnlp/AlKhamissiTTBBS25",
+      "https://dblp.org/rec/conf/emnlp/AlKhamissiTTBBS25",
+      "10.18653/v1/2025.emnlp-main.1237"
+    ],
+    "2025-emnlp-main-1249": [
+      "2025-emnlp-main-1249",
+      "Large Language Models Meet Knowledge Graphs for Question Answering: Synthesis and Opportunities",
+      "dblp:conf/emnlp/MaCWKW25",
+      "https://dblp.org/rec/conf/emnlp/MaCWKW25",
+      "10.18653/v1/2025.emnlp-main.1249"
+    ],
+    "2025-emnlp-main-1261": [
+      "2025-emnlp-main-1261",
+      "Subjective Behaviors and Preferences in LLM: Language of Browsing",
+      "dblp:conf/emnlp/SundaresanCSGNKA25",
+      "https://dblp.org/rec/conf/emnlp/SundaresanCSGNKA25",
+      "10.18653/v1/2025.emnlp-main.1261"
+    ],
+    "2025-emnlp-main-127": [
+      "2025-emnlp-main-127",
+      "FilBench: Can LLMs Understand and Generate Filipino?",
+      "dblp:conf/emnlp/MirandaAMCI25",
+      "https://dblp.org/rec/conf/emnlp/MirandaAMCI25",
+      "10.18653/v1/2025.emnlp-main.127"
+    ],
+    "2025-emnlp-main-1273": [
+      "2025-emnlp-main-1273",
+      "Don’t Sweat the Small Stuff: Segment-Level Meta-Evaluation Based on Pairwise Difference Correlation",
+      "dblp:conf/emnlp/DiIanniD25",
+      "https://dblp.org/rec/conf/emnlp/DiIanniD25",
+      "10.18653/v1/2025.emnlp-main.1273"
+    ],
+    "2025-emnlp-main-1285": [
+      "2025-emnlp-main-1285",
+      "Stepwise Informativeness Search for Improving LLM Reasoning",
+      "dblp:conf/emnlp/WangZR25",
+      "https://dblp.org/rec/conf/emnlp/WangZR25",
+      "10.18653/v1/2025.emnlp-main.1285"
+    ],
+    "2025-emnlp-main-1297": [
+      "2025-emnlp-main-1297",
+      "Pathway to Relevance: How Cross-Encoders Implement a Semantic Variant of BM25",
+      "dblp:conf/emnlp/LuCE25",
+      "https://dblp.org/rec/conf/emnlp/LuCE25",
+      "10.18653/v1/2025.emnlp-main.1297"
+    ],
+    "2025-emnlp-main-1309": [
+      "2025-emnlp-main-1309",
+      "Semantic Networks Extracted from Students’ Think-Aloud Data are Correlated with Students’ Learning Performance",
+      "dblp:conf/emnlp/YangJCD25",
+      "https://dblp.org/rec/conf/emnlp/YangJCD25",
+      "10.18653/v1/2025.emnlp-main.1309"
+    ],
+    "2025-emnlp-main-1321": [
+      "2025-emnlp-main-1321",
+      "Definition Generation for Word Meaning Modeling: Monolingual, Multilingual, and Cross-Lingual Perspectives",
+      "dblp:conf/emnlp/PeritiGDT25",
+      "https://dblp.org/rec/conf/emnlp/PeritiGDT25",
+      "10.18653/v1/2025.emnlp-main.1321"
+    ],
+    "2025-emnlp-main-1333": [
+      "2025-emnlp-main-1333",
+      "Reverse Prompt Engineering: A Zero-Shot, Genetic Algorithm Approach to Language Model Inversion",
+      "dblp:conf/emnlp/LiK25",
+      "https://dblp.org/rec/conf/emnlp/LiK25",
+      "10.18653/v1/2025.emnlp-main.1333"
+    ],
+    "2025-emnlp-main-1345": [
+      "2025-emnlp-main-1345",
+      "Decoding Dense Embeddings: Sparse Autoencoders for Interpreting and Discretizing Dense Retrieval",
+      "dblp:conf/emnlp/ParkKK25",
+      "https://dblp.org/rec/conf/emnlp/ParkKK25",
+      "10.18653/v1/2025.emnlp-main.1345"
+    ],
+    "2025-emnlp-main-1357": [
+      "2025-emnlp-main-1357",
+      "Enhancing Large Vision-Language Models with Ultra-Detailed Image Caption Generation",
+      "dblp:conf/emnlp/ZengQZBCCHZZ25",
+      "https://dblp.org/rec/conf/emnlp/ZengQZBCCHZZ25",
+      "10.18653/v1/2025.emnlp-main.1357"
+    ],
+    "2025-emnlp-main-1369": [
+      "2025-emnlp-main-1369",
+      "M-Wanda: Improving One-Shot Pruning for Multilingual LLMs",
+      "dblp:conf/emnlp/ChoenniT25",
+      "https://dblp.org/rec/conf/emnlp/ChoenniT25",
+      "10.18653/v1/2025.emnlp-main.1369"
+    ],
+    "2025-emnlp-main-1381": [
+      "2025-emnlp-main-1381",
+      "SemVink: Advancing VLMs’ Semantic Understanding of Optical Illusions via Visual Global Thinking",
+      "dblp:conf/emnlp/LiCW25",
+      "https://dblp.org/rec/conf/emnlp/LiCW25",
+      "10.18653/v1/2025.emnlp-main.1381"
+    ],
+    "2025-emnlp-main-139": [
+      "2025-emnlp-main-139",
+      "MultiMatch: Multihead Consistency Regularization Matching for Semi-Supervised Text Classification",
+      "dblp:conf/emnlp/SirbuPCTR25",
+      "https://dblp.org/rec/conf/emnlp/SirbuPCTR25",
+      "10.18653/v1/2025.emnlp-main.139"
+    ],
+    "2025-emnlp-main-1393": [
+      "2025-emnlp-main-1393",
+      "TALON: A Multi-Agent Framework for Long-Table Exploration and Question Answering",
+      "dblp:conf/emnlp/JinWWZQYZ25",
+      "https://dblp.org/rec/conf/emnlp/JinWWZQYZ25",
+      "10.18653/v1/2025.emnlp-main.1393"
+    ],
+    "2025-emnlp-main-1405": [
+      "2025-emnlp-main-1405",
+      "Attacking Misinformation Detection Using Adversarial Examples Generated by Language Models",
+      "dblp:conf/emnlp/PrzybylaMS25",
+      "https://dblp.org/rec/conf/emnlp/PrzybylaMS25",
+      "10.18653/v1/2025.emnlp-main.1405"
+    ],
+    "2025-emnlp-main-1418": [
+      "2025-emnlp-main-1418",
+      "Synth-SBDH: A Synthetic Dataset of Social and Behavioral Determinants of Health for Clinical Text",
+      "dblp:conf/emnlp/MitraYDGY25",
+      "https://dblp.org/rec/conf/emnlp/MitraYDGY25",
+      "10.18653/v1/2025.emnlp-main.1418"
+    ],
+    "2025-emnlp-main-1430": [
+      "2025-emnlp-main-1430",
+      "Improving Large Language Model Safety with Contrastive Representation Learning",
+      "dblp:conf/emnlp/SimkoSSJ25",
+      "https://dblp.org/rec/conf/emnlp/SimkoSSJ25",
+      "10.18653/v1/2025.emnlp-main.1430"
+    ],
+    "2025-emnlp-main-1442": [
+      "2025-emnlp-main-1442",
+      "COUNTDOWN: Contextually Sparse Activation Filtering Out Unnecessary Weights in Down Projection",
+      "dblp:conf/emnlp/CheonK25",
+      "https://dblp.org/rec/conf/emnlp/CheonK25",
+      "10.18653/v1/2025.emnlp-main.1442"
+    ],
+    "2025-emnlp-main-1454": [
+      "2025-emnlp-main-1454",
+      "BrailleLLM: Braille Instruction Tuning with Large Language Models for Braille Domain Tasks",
+      "dblp:conf/emnlp/HuangZXSYYHLB25",
+      "https://dblp.org/rec/conf/emnlp/HuangZXSYYHLB25",
+      "10.18653/v1/2025.emnlp-main.1454"
+    ],
+    "2025-emnlp-main-1466": [
+      "2025-emnlp-main-1466",
+      "XLQA: A Benchmark for Locale-Aware Multilingual Open-Domain Question Answering",
+      "dblp:conf/emnlp/RohJL25",
+      "https://dblp.org/rec/conf/emnlp/RohJL25",
+      "10.18653/v1/2025.emnlp-main.1466"
+    ],
+    "2025-emnlp-main-1478": [
+      "2025-emnlp-main-1478",
+      "M2Edit: Locate and Edit Multi-Granularity Knowledge in Multimodal Large Language Model",
+      "dblp:conf/emnlp/ZhouCCLSCLZ25",
+      "https://dblp.org/rec/conf/emnlp/ZhouCCLSCLZ25",
+      "10.18653/v1/2025.emnlp-main.1478"
+    ],
+    "2025-emnlp-main-1490": [
+      "2025-emnlp-main-1490",
+      "SCRIBE: Structured Chain Reasoning for Interactive Behaviour Explanations using Tool Calling",
+      "dblp:conf/emnlp/FawziSGNK25",
+      "https://dblp.org/rec/conf/emnlp/FawziSGNK25",
+      "10.18653/v1/2025.emnlp-main.1490"
+    ],
+    "2025-emnlp-main-1502": [
+      "2025-emnlp-main-1502",
+      "It’s All About In-Context Learning! Teaching Extremely Low-Resource Languages to LLMs",
+      "dblp:conf/emnlp/LiZS25",
+      "https://dblp.org/rec/conf/emnlp/LiZS25",
+      "10.18653/v1/2025.emnlp-main.1502"
+    ],
+    "2025-emnlp-main-151": [
+      "2025-emnlp-main-151",
+      "BBScoreV2: Learning Time-Evolution and Latent Alignment from Stochastic Representation",
+      "dblp:conf/emnlp/ZhangSLJK25",
+      "https://dblp.org/rec/conf/emnlp/ZhangSLJK25",
+      "10.18653/v1/2025.emnlp-main.151"
+    ],
+    "2025-emnlp-main-1514": [
+      "2025-emnlp-main-1514",
+      "The Good, the Bad, and the Debatable: A Survey on the Impacts of Data for In-Context Learning",
+      "dblp:conf/emnlp/SchochJ25",
+      "https://dblp.org/rec/conf/emnlp/SchochJ25",
+      "10.18653/v1/2025.emnlp-main.1514"
+    ],
+    "2025-emnlp-main-1526": [
+      "2025-emnlp-main-1526",
+      "A Comprehensive Framework to Operationalize Social Stereotypes for Responsible AI Evaluations",
+      "dblp:conf/emnlp/DavaniDPP25",
+      "https://dblp.org/rec/conf/emnlp/DavaniDPP25",
+      "10.18653/v1/2025.emnlp-main.1526"
+    ],
+    "2025-emnlp-main-1538": [
+      "2025-emnlp-main-1538",
+      "VeriLocc: End-to-End Cross-Architecture Register Allocation via LLM",
+      "dblp:conf/emnlp/JinRMS25",
+      "https://dblp.org/rec/conf/emnlp/JinRMS25",
+      "10.18653/v1/2025.emnlp-main.1538"
+    ],
+    "2025-emnlp-main-1550": [
+      "2025-emnlp-main-1550",
+      "Reflective Agreement: Combining Self-Mixture of Agents with a Sequence Tagger for Robust Event Extraction",
+      "dblp:conf/emnlp/HajiBCRN25",
+      "https://dblp.org/rec/conf/emnlp/HajiBCRN25",
+      "10.18653/v1/2025.emnlp-main.1550"
+    ],
+    "2025-emnlp-main-1562": [
+      "2025-emnlp-main-1562",
+      "Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations",
+      "dblp:conf/emnlp/WangLBU25",
+      "https://dblp.org/rec/conf/emnlp/WangLBU25",
+      "10.18653/v1/2025.emnlp-main.1562"
+    ],
+    "2025-emnlp-main-1574": [
+      "2025-emnlp-main-1574",
+      "Is Cognition Consistent with Perception? Assessing and Mitigating Multimodal Knowledge Conflicts in Document Understanding",
+      "dblp:conf/emnlp/ShaoGZLXYZYB25",
+      "https://dblp.org/rec/conf/emnlp/ShaoGZLXYZYB25",
+      "10.18653/v1/2025.emnlp-main.1574"
+    ],
+    "2025-emnlp-main-1586": [
+      "2025-emnlp-main-1586",
+      "NL2Lean: Translating Natural Language into Lean 4 through Multi-Aspect Reinforcement Learning",
+      "dblp:conf/emnlp/FangHYHZDWSZJ25",
+      "https://dblp.org/rec/conf/emnlp/FangHYHZDWSZJ25",
+      "10.18653/v1/2025.emnlp-main.1586"
+    ],
+    "2025-emnlp-main-1598": [
+      "2025-emnlp-main-1598",
+      "Beyond the Leaderboard: Understanding Performance Disparities in Large Language Models via Model Diffing",
+      "dblp:conf/emnlp/BoughorbelDDH25",
+      "https://dblp.org/rec/conf/emnlp/BoughorbelDDH25",
+      "10.18653/v1/2025.emnlp-main.1598"
+    ],
+    "2025-emnlp-main-1611": [
+      "2025-emnlp-main-1611",
+      "Cross-Document Cross-Lingual NLI via RST-Enhanced Graph Fusion and Interpretability Prediction",
+      "dblp:conf/emnlp/YuanWWHWLTJ25",
+      "https://dblp.org/rec/conf/emnlp/YuanWWHWLTJ25",
+      "10.18653/v1/2025.emnlp-main.1611"
+    ],
+    "2025-emnlp-main-1623": [
+      "2025-emnlp-main-1623",
+      "Predicting Prosodic Boundaries for Children’s Texts",
+      "dblp:conf/emnlp/DhamneRR25",
+      "https://dblp.org/rec/conf/emnlp/DhamneRR25",
+      "10.18653/v1/2025.emnlp-main.1623"
+    ],
+    "2025-emnlp-main-163": [
+      "2025-emnlp-main-163",
+      "Few-Shot Learning Translation from New Languages",
+      "dblp:conf/emnlp/MullovW25",
+      "https://dblp.org/rec/conf/emnlp/MullovW25",
+      "10.18653/v1/2025.emnlp-main.163"
+    ],
+    "2025-emnlp-main-1635": [
+      "2025-emnlp-main-1635",
+      "Measuring scalar constructs in social science with LLMs",
+      "dblp:conf/emnlp/LichtSWGSAH25",
+      "https://dblp.org/rec/conf/emnlp/LichtSWGSAH25",
+      "10.18653/v1/2025.emnlp-main.1635"
+    ],
+    "2025-emnlp-main-1647": [
+      "2025-emnlp-main-1647",
+      "VideoPASTA: 7K Preference Pairs That Matter for Video-LLM Alignment",
+      "dblp:conf/emnlp/KulkarniF25",
+      "https://dblp.org/rec/conf/emnlp/KulkarniF25",
+      "10.18653/v1/2025.emnlp-main.1647"
+    ],
+    "2025-emnlp-main-1659": [
+      "2025-emnlp-main-1659",
+      "ThinkSLM: Towards Reasoning in Small Language Models",
+      "dblp:conf/emnlp/SrivastavaCW25",
+      "https://dblp.org/rec/conf/emnlp/SrivastavaCW25",
+      "10.18653/v1/2025.emnlp-main.1659"
+    ],
+    "2025-emnlp-main-1671": [
+      "2025-emnlp-main-1671",
+      "SUE: Sparsity-based Uncertainty Estimation via Sparse Dictionary Learning",
+      "dblp:conf/emnlp/FicsorB25",
+      "https://dblp.org/rec/conf/emnlp/FicsorB25",
+      "10.18653/v1/2025.emnlp-main.1671"
+    ],
+    "2025-emnlp-main-1683": [
+      "2025-emnlp-main-1683",
+      "MemInsight: Autonomous Memory Augmentation for LLM Agents",
+      "dblp:conf/emnlp/SalamaCYCSZB25",
+      "https://dblp.org/rec/conf/emnlp/SalamaCYCSZB25",
+      "10.18653/v1/2025.emnlp-main.1683"
+    ],
+    "2025-emnlp-main-1695": [
+      "2025-emnlp-main-1695",
+      "Spatial Layouts in News Homepages Capture Human Preferences",
+      "dblp:conf/emnlp/SpangherVKZW25",
+      "https://dblp.org/rec/conf/emnlp/SpangherVKZW25",
+      "10.18653/v1/2025.emnlp-main.1695"
+    ],
+    "2025-emnlp-main-1707": [
+      "2025-emnlp-main-1707",
+      "SYNC: A Synthetic Long-Context Understanding Benchmark for Controlled Comparisons of Model Capabilities",
+      "dblp:conf/emnlp/CaoZW25",
+      "https://dblp.org/rec/conf/emnlp/CaoZW25",
+      "10.18653/v1/2025.emnlp-main.1707"
+    ],
+    "2025-emnlp-main-1719": [
+      "2025-emnlp-main-1719",
+      "MicroEdit: Neuron-level Knowledge Disentanglement and Localization in Lifelong Model Editing",
+      "dblp:conf/emnlp/WangWNKC25",
+      "https://dblp.org/rec/conf/emnlp/WangWNKC25",
+      "10.18653/v1/2025.emnlp-main.1719"
+    ],
+    "2025-emnlp-main-1731": [
+      "2025-emnlp-main-1731",
+      "Multi-LMentry: Can Multilingual LLMs Solve Elementary Tasks Across Languages?",
+      "dblp:conf/emnlp/MoroniACBPSSOFSGNV25",
+      "https://dblp.org/rec/conf/emnlp/MoroniACBPSSOFSGNV25",
+      "10.18653/v1/2025.emnlp-main.1731"
+    ],
+    "2025-emnlp-main-1743": [
+      "2025-emnlp-main-1743",
+      "Towards Event Extraction with Massive Types: LLM-based Collaborative Annotation and Partitioning Extraction",
+      "dblp:conf/emnlp/LiuLBZXJGC25",
+      "https://dblp.org/rec/conf/emnlp/LiuLBZXJGC25",
+      "10.18653/v1/2025.emnlp-main.1743"
+    ],
+    "2025-emnlp-main-175": [
+      "2025-emnlp-main-175",
+      "WangchanThaiInstruct: An instruction-following Dataset for Culture-Aware, Multitask, and Multi-domain Evaluation in Thai",
+      "dblp:conf/emnlp/LimkonchotiwatTLNTAUN25",
+      "https://dblp.org/rec/conf/emnlp/LimkonchotiwatTLNTAUN25",
+      "10.18653/v1/2025.emnlp-main.175"
+    ],
+    "2025-emnlp-main-1755": [
+      "2025-emnlp-main-1755",
+      "AI Argues Differently: Distinct Argumentative and Linguistic Patterns of LLMs in Persuasive Contexts",
+      "dblp:conf/emnlp/DonmezMLF25",
+      "https://dblp.org/rec/conf/emnlp/DonmezMLF25",
+      "10.18653/v1/2025.emnlp-main.1755"
+    ],
+    "2025-emnlp-main-1767": [
+      "2025-emnlp-main-1767",
+      "DrFrattn: Directly Learn Adaptive Policy from Attention for Simultaneous Machine Translation",
+      "dblp:conf/emnlp/ZhaoLZ25",
+      "https://dblp.org/rec/conf/emnlp/ZhaoLZ25",
+      "10.18653/v1/2025.emnlp-main.1767"
+    ],
+    "2025-emnlp-main-1779": [
+      "2025-emnlp-main-1779",
+      "Trojsten Benchmark: Evaluating LLM Problem-Solving in Slovak STEM Competition Problems",
+      "dblp:conf/emnlp/ZahradnikS25",
+      "https://dblp.org/rec/conf/emnlp/ZahradnikS25",
+      "10.18653/v1/2025.emnlp-main.1779"
+    ],
+    "2025-emnlp-main-1791": [
+      "2025-emnlp-main-1791",
+      "Current Semantic-change Quantification Methods Struggle with Discovery in the Wild",
+      "dblp:conf/emnlp/UmarovaLK25",
+      "https://dblp.org/rec/conf/emnlp/UmarovaLK25",
+      "10.18653/v1/2025.emnlp-main.1791"
+    ],
+    "2025-emnlp-main-1803": [
+      "2025-emnlp-main-1803",
+      "Which Word Orders Facilitate Length Generalization in LMs? An Investigation with GCG-Based Artificial Languages",
+      "dblp:conf/emnlp/ElNaggarKB25",
+      "https://dblp.org/rec/conf/emnlp/ElNaggarKB25",
+      "10.18653/v1/2025.emnlp-main.1803"
+    ],
+    "2025-emnlp-main-187": [
+      "2025-emnlp-main-187",
+      "Calibrating Verbal Uncertainty as a Linear Feature to Reduce Hallucinations",
+      "dblp:conf/emnlp/JiYKBHSZFC25",
+      "https://dblp.org/rec/conf/emnlp/JiYKBHSZFC25",
+      "10.18653/v1/2025.emnlp-main.187"
+    ],
+    "2025-emnlp-main-19": [
+      "2025-emnlp-main-19",
+      "SensorLLM: Aligning Large Language Models with Motion Sensors for Human Activity Recognition",
+      "dblp:conf/emnlp/LiDCXS25",
+      "https://dblp.org/rec/conf/emnlp/LiDCXS25",
+      "10.18653/v1/2025.emnlp-main.19"
+    ],
+    "2025-emnlp-main-199": [
+      "2025-emnlp-main-199",
+      "Quantifying Language Disparities in Multilingual Large Language Models",
+      "dblp:conf/emnlp/HuVK25",
+      "https://dblp.org/rec/conf/emnlp/HuVK25",
+      "10.18653/v1/2025.emnlp-main.199"
+    ],
+    "2025-emnlp-main-212": [
+      "2025-emnlp-main-212",
+      "BacktrackAgent: Enhancing GUI Agent with Error Detection and Backtracking Mechanism",
+      "dblp:conf/emnlp/WuGLL25",
+      "https://dblp.org/rec/conf/emnlp/WuGLL25",
+      "10.18653/v1/2025.emnlp-main.212"
+    ],
+    "2025-emnlp-main-224": [
+      "2025-emnlp-main-224",
+      "Synergizing Multimodal Temporal Knowledge Graphs and Large Language Models for Social Relation Recognition",
+      "dblp:conf/emnlp/WangWZWW25",
+      "https://dblp.org/rec/conf/emnlp/WangWZWW25",
+      "10.18653/v1/2025.emnlp-main.224"
+    ],
+    "2025-emnlp-main-236": [
+      "2025-emnlp-main-236",
+      "Scalable Data Synthesis through Human-like Cognitive Imitation and Data Recombination",
+      "dblp:conf/emnlp/YeZZZRC25",
+      "https://dblp.org/rec/conf/emnlp/YeZZZRC25",
+      "10.18653/v1/2025.emnlp-main.236"
+    ],
+    "2025-emnlp-main-248": [
+      "2025-emnlp-main-248",
+      "Model-based Large Language Model Customization as Service",
+      "dblp:conf/emnlp/WuGHHFY25",
+      "https://dblp.org/rec/conf/emnlp/WuGHHFY25",
+      "10.18653/v1/2025.emnlp-main.248"
+    ],
+    "2025-emnlp-main-260": [
+      "2025-emnlp-main-260",
+      "From General Reward to Targeted Reward: Improving Open-ended Long-context Generation Models",
+      "dblp:conf/emnlp/GuoWCZHWK25",
+      "https://dblp.org/rec/conf/emnlp/GuoWCZHWK25",
+      "10.18653/v1/2025.emnlp-main.260"
+    ],
+    "2025-emnlp-main-272": [
+      "2025-emnlp-main-272",
+      "Cost-Optimal Grouped-Query Attention for Long-Context Modeling",
+      "dblp:conf/emnlp/ChenWSTSHLS25",
+      "https://dblp.org/rec/conf/emnlp/ChenWSTSHLS25",
+      "10.18653/v1/2025.emnlp-main.272"
+    ],
+    "2025-emnlp-main-284": [
+      "2025-emnlp-main-284",
+      "TRUST-VL: An Explainable News Assistant for General Multimodal Misinformation Detection",
+      "dblp:conf/emnlp/YanQHL25",
+      "https://dblp.org/rec/conf/emnlp/YanQHL25",
+      "10.18653/v1/2025.emnlp-main.284"
+    ],
+    "2025-emnlp-main-296": [
+      "2025-emnlp-main-296",
+      "Pragmatic Inference Chain (PIC) Improving LLMs’ Reasoning of Authentic Implicit Toxic Language",
+      "dblp:conf/emnlp/ChenW25",
+      "https://dblp.org/rec/conf/emnlp/ChenW25",
+      "10.18653/v1/2025.emnlp-main.296"
+    ],
+    "2025-emnlp-main-308": [
+      "2025-emnlp-main-308",
+      "JOLT-SQL: Joint Loss Tuning of Text-to-SQL with Confusion-aware Noisy Schema Sampling",
+      "dblp:conf/emnlp/SongZZMHHP25",
+      "https://dblp.org/rec/conf/emnlp/SongZZMHHP25",
+      "10.18653/v1/2025.emnlp-main.308"
+    ],
+    "2025-emnlp-main-31": [
+      "2025-emnlp-main-31",
+      "Emotion Transfer with Enhanced Prototype for Unseen Emotion Recognition in Conversation",
+      "dblp:conf/emnlp/PengCPWHJLY25",
+      "https://dblp.org/rec/conf/emnlp/PengCPWHJLY25",
+      "10.18653/v1/2025.emnlp-main.31"
+    ],
+    "2025-emnlp-main-320": [
+      "2025-emnlp-main-320",
+      "CoVoGER: A Multilingual Multitask Benchmark for Speech-to-text Generative Error Correction with Large Language Models",
+      "dblp:conf/emnlp/YangWLYC25",
+      "https://dblp.org/rec/conf/emnlp/YangWLYC25",
+      "10.18653/v1/2025.emnlp-main.320"
+    ],
+    "2025-emnlp-main-332": [
+      "2025-emnlp-main-332",
+      "SPE Attention: Making Attention Equivariant to Semantic-Preserving Permutation for Code Processing",
+      "dblp:conf/emnlp/JiaoCZ25",
+      "https://dblp.org/rec/conf/emnlp/JiaoCZ25",
+      "10.18653/v1/2025.emnlp-main.332"
+    ],
+    "2025-emnlp-main-344": [
+      "2025-emnlp-main-344",
+      "ViLBench: A Suite for Vision-Language Process Reward Modeling",
+      "dblp:conf/emnlp/TuFCLTX25",
+      "https://dblp.org/rec/conf/emnlp/TuFCLTX25",
+      "10.18653/v1/2025.emnlp-main.344"
+    ],
+    "2025-emnlp-main-356": [
+      "2025-emnlp-main-356",
+      "CTCC: A Robust and Stealthy Fingerprinting Framework for Large Language Models via Cross-Turn Contextual Correlation Backdoor",
+      "dblp:conf/emnlp/XuZYTLH25",
+      "https://dblp.org/rec/conf/emnlp/XuZYTLH25",
+      "10.18653/v1/2025.emnlp-main.356"
+    ],
+    "2025-emnlp-main-368": [
+      "2025-emnlp-main-368",
+      "LEO-MINI: An Efficient Multimodal Large Language Model using Conditional Token Reduction and Mixture of Multi-Modal Experts",
+      "dblp:conf/emnlp/WangASC25",
+      "https://dblp.org/rec/conf/emnlp/WangASC25",
+      "10.18653/v1/2025.emnlp-main.368"
+    ],
+    "2025-emnlp-main-380": [
+      "2025-emnlp-main-380",
+      "RTE-GMoE: A Model-agnostic Approach for Relation Triplet Extraction via Graph-based Mixture-of-Expert Mutual Learning",
+      "dblp:conf/emnlp/WulamuGZHZX25",
+      "https://dblp.org/rec/conf/emnlp/WulamuGZHZX25",
+      "10.18653/v1/2025.emnlp-main.380"
+    ],
+    "2025-emnlp-main-392": [
+      "2025-emnlp-main-392",
+      "Structuring Radiology Reports: Challenging LLMs with Lightweight Models",
+      "dblp:conf/emnlp/MollFAOGLLD25",
+      "https://dblp.org/rec/conf/emnlp/MollFAOGLLD25",
+      "10.18653/v1/2025.emnlp-main.392"
+    ],
+    "2025-emnlp-main-405": [
+      "2025-emnlp-main-405",
+      "ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning",
+      "dblp:conf/emnlp/QiaoDZWWWMZRZ25",
+      "https://dblp.org/rec/conf/emnlp/QiaoDZWWWMZRZ25",
+      "10.18653/v1/2025.emnlp-main.405"
+    ],
+    "2025-emnlp-main-417": [
+      "2025-emnlp-main-417",
+      "AbsVis – Benchmarking How Humans and Vision-Language Models “See” Abstract Concepts in Images",
+      "dblp:conf/emnlp/TaterFW25",
+      "https://dblp.org/rec/conf/emnlp/TaterFW25",
+      "10.18653/v1/2025.emnlp-main.417"
+    ],
+    "2025-emnlp-main-429": [
+      "2025-emnlp-main-429",
+      "SEAL: Structure and Element Aware Learning Improves Long Structured Document Retrieval",
+      "dblp:conf/emnlp/HuangRYZCW25",
+      "https://dblp.org/rec/conf/emnlp/HuangRYZCW25",
+      "10.18653/v1/2025.emnlp-main.429"
+    ],
+    "2025-emnlp-main-43": [
+      "2025-emnlp-main-43",
+      "TracSum: A New Benchmark for Aspect-Based Summarization with Sentence-Level Traceability in Medical Domain",
+      "dblp:conf/emnlp/ChuLFGLLF25",
+      "https://dblp.org/rec/conf/emnlp/ChuLFGLLF25",
+      "10.18653/v1/2025.emnlp-main.43"
+    ],
+    "2025-emnlp-main-441": [
+      "2025-emnlp-main-441",
+      "Certainty in Uncertainty: Reasoning over Uncertain Knowledge Graphs with Statistical Guarantees",
+      "dblp:conf/emnlp/ZhuWWZCKS25",
+      "https://dblp.org/rec/conf/emnlp/ZhuWWZCKS25",
+      "10.18653/v1/2025.emnlp-main.441"
+    ],
+    "2025-emnlp-main-453": [
+      "2025-emnlp-main-453",
+      "IIET: Efficient Numerical Transformer via Implicit Iterative Euler Method",
+      "dblp:conf/emnlp/LiuLLRJTWXZ25",
+      "https://dblp.org/rec/conf/emnlp/LiuLLRJTWXZ25",
+      "10.18653/v1/2025.emnlp-main.453"
+    ],
+    "2025-emnlp-main-465": [
+      "2025-emnlp-main-465",
+      "IndoSafety: Culturally Grounded Safety for LLMs in Indonesian Languages",
+      "dblp:conf/emnlp/AzmiKWK25",
+      "https://dblp.org/rec/conf/emnlp/AzmiKWK25",
+      "10.18653/v1/2025.emnlp-main.465"
+    ],
+    "2025-emnlp-main-477": [
+      "2025-emnlp-main-477",
+      "SPECS: Specificity-Enhanced CLIP-Score for Long Image Caption Evaluation",
+      "dblp:conf/emnlp/ChenSK25",
+      "https://dblp.org/rec/conf/emnlp/ChenSK25",
+      "10.18653/v1/2025.emnlp-main.477"
+    ],
+    "2025-emnlp-main-489": [
+      "2025-emnlp-main-489",
+      "CodeArena: Evaluating and Aligning CodeLLMs on Human Preference",
+      "dblp:conf/emnlp/YangYZKMZYCZLHL25",
+      "https://dblp.org/rec/conf/emnlp/YangYZKMZYCZLHL25",
+      "10.18653/v1/2025.emnlp-main.489"
+    ],
+    "2025-emnlp-main-501": [
+      "2025-emnlp-main-501",
+      "AI Knows Where You Are: Exposure, Bias, and Inference in Multimodal Geolocation with KoreaGEO",
+      "dblp:conf/emnlp/WangSK25",
+      "https://dblp.org/rec/conf/emnlp/WangSK25",
+      "10.18653/v1/2025.emnlp-main.501"
+    ],
+    "2025-emnlp-main-513": [
+      "2025-emnlp-main-513",
+      "RecGPT: A Foundation Model for Sequential Recommendation",
+      "dblp:conf/emnlp/JiangRXLLH25",
+      "https://dblp.org/rec/conf/emnlp/JiangRXLLH25",
+      "10.18653/v1/2025.emnlp-main.513"
+    ],
+    "2025-emnlp-main-525": [
+      "2025-emnlp-main-525",
+      "Doubling Your Data in Minutes: Ultra-fast Tabular Data Generation via LLM-Induced Dependency Graphs",
+      "dblp:conf/emnlp/YangZPK25",
+      "https://dblp.org/rec/conf/emnlp/YangZPK25",
+      "10.18653/v1/2025.emnlp-main.525"
+    ],
+    "2025-emnlp-main-537": [
+      "2025-emnlp-main-537",
+      "IG-Pruning: Input-Guided Block Pruning for Large Language Models",
+      "dblp:conf/emnlp/QiaoZF25",
+      "https://dblp.org/rec/conf/emnlp/QiaoZF25",
+      "10.18653/v1/2025.emnlp-main.537"
+    ],
+    "2025-emnlp-main-549": [
+      "2025-emnlp-main-549",
+      "Bridging External and Parametric Knowledge: Mitigating Hallucination of LLMs with Shared-Private Semantic Synergy in Dual-Stream Knowledge",
+      "dblp:conf/emnlp/SuiLZSL25",
+      "https://dblp.org/rec/conf/emnlp/SuiLZSL25",
+      "10.18653/v1/2025.emnlp-main.549"
+    ],
+    "2025-emnlp-main-55": [
+      "2025-emnlp-main-55",
+      "SEA: Supervised Embedding Alignment for Token-Level Visual-Textual Integration in MLLMs",
+      "dblp:conf/emnlp/YinZZZLWTWZZ25",
+      "https://dblp.org/rec/conf/emnlp/YinZZZLWTWZZ25",
+      "10.18653/v1/2025.emnlp-main.55"
+    ],
+    "2025-emnlp-main-561": [
+      "2025-emnlp-main-561",
+      "Circuit Complexity Bounds for RoPE-based Transformer Architecture",
+      "dblp:conf/emnlp/ChenLLLSSZ25",
+      "https://dblp.org/rec/conf/emnlp/ChenLLLSSZ25",
+      "10.18653/v1/2025.emnlp-main.561"
+    ],
+    "2025-emnlp-main-573": [
+      "2025-emnlp-main-573",
+      "DEL-ToM: Inference-Time Scaling for Theory-of-Mind Reasoning via Dynamic Epistemic Logic",
+      "dblp:conf/emnlp/WuXZX25",
+      "https://dblp.org/rec/conf/emnlp/WuXZX25",
+      "10.18653/v1/2025.emnlp-main.573"
+    ],
+    "2025-emnlp-main-585": [
+      "2025-emnlp-main-585",
+      "A Good Plan is Hard to Find: Aligning Models with Preferences is Misaligned with What Helps Users",
+      "dblp:conf/emnlp/BalepurSSGFYRB25",
+      "https://dblp.org/rec/conf/emnlp/BalepurSSGFYRB25",
+      "10.18653/v1/2025.emnlp-main.585"
+    ],
+    "2025-emnlp-main-597": [
+      "2025-emnlp-main-597",
+      "D-CoDe: Scaling Image-Pretrained VLMs to Video via Dynamic Compression and Question Decomposition",
+      "dblp:conf/emnlp/HuangWF25",
+      "https://dblp.org/rec/conf/emnlp/HuangWF25",
+      "10.18653/v1/2025.emnlp-main.597"
+    ],
+    "2025-emnlp-main-610": [
+      "2025-emnlp-main-610",
+      "Skip-Thinking: Chunk-wise Chain-of-Thought Distillation Enable Smaller Language Models to Reason Better and Faster",
+      "dblp:conf/emnlp/ChenZLSL25",
+      "https://dblp.org/rec/conf/emnlp/ChenZLSL25",
+      "10.18653/v1/2025.emnlp-main.610"
+    ],
+    "2025-emnlp-main-622": [
+      "2025-emnlp-main-622",
+      "CMHG: A Dataset and Benchmark for Headline Generation of Minority Languages in China",
+      "dblp:conf/emnlp/XuSZLHZD25",
+      "https://dblp.org/rec/conf/emnlp/XuSZLHZD25",
+      "10.18653/v1/2025.emnlp-main.622"
+    ],
+    "2025-emnlp-main-634": [
+      "2025-emnlp-main-634",
+      "Exploring the Limitations of Mamba in COPY and CoT Reasoning",
+      "dblp:conf/emnlp/RenLL25",
+      "https://dblp.org/rec/conf/emnlp/RenLL25",
+      "10.18653/v1/2025.emnlp-main.634"
+    ],
+    "2025-emnlp-main-646": [
+      "2025-emnlp-main-646",
+      "DeepWell-Adol: A Scalable Expert-Based Dialogue Corpus for Adolescent Positive Mental Health and Wellbeing Promotion",
+      "dblp:conf/emnlp/QiuWTHLYN25",
+      "https://dblp.org/rec/conf/emnlp/QiuWTHLYN25",
+      "10.18653/v1/2025.emnlp-main.646"
+    ],
+    "2025-emnlp-main-658": [
+      "2025-emnlp-main-658",
+      "Calibrating Pseudo-Labeling with Class Distribution for Semi-supervised Text Classification",
+      "dblp:conf/emnlp/YangZCS25",
+      "https://dblp.org/rec/conf/emnlp/YangZCS25",
+      "10.18653/v1/2025.emnlp-main.658"
+    ],
+    "2025-emnlp-main-67": [
+      "2025-emnlp-main-67",
+      "Think Wider, Detect Sharper: Reinforced Reference Coverage for Document-Level Self-Contradiction Detection",
+      "dblp:conf/emnlp/ChenLLZLX25",
+      "https://dblp.org/rec/conf/emnlp/ChenLLZLX25",
+      "10.18653/v1/2025.emnlp-main.67"
+    ],
+    "2025-emnlp-main-670": [
+      "2025-emnlp-main-670",
+      "Neural Topic Modeling via Contextual and Graph Information Fusion",
+      "dblp:conf/emnlp/LiuYZLQR25",
+      "https://dblp.org/rec/conf/emnlp/LiuYZLQR25",
+      "10.18653/v1/2025.emnlp-main.670"
+    ],
+    "2025-emnlp-main-682": [
+      "2025-emnlp-main-682",
+      "AskToAct: Enhancing LLMs Tool Use via Self-Correcting Clarification",
+      "dblp:conf/emnlp/ZhangSZWZYPWL25",
+      "https://dblp.org/rec/conf/emnlp/ZhangSZWZYPWL25",
+      "10.18653/v1/2025.emnlp-main.682"
+    ],
+    "2025-emnlp-main-694": [
+      "2025-emnlp-main-694",
+      "DisLoRA: Task-specific Low-Rank Adaptation via Orthogonal Basis from Singular Value Decomposition",
+      "dblp:conf/emnlp/YifeiWW25",
+      "https://dblp.org/rec/conf/emnlp/YifeiWW25",
+      "10.18653/v1/2025.emnlp-main.694"
+    ],
+    "2025-emnlp-main-7": [
+      "2025-emnlp-main-7",
+      "Revisiting LLM Value Probing Strategies: Are They Robust and Expressive?",
+      "dblp:conf/emnlp/ShenSLLLM25",
+      "https://dblp.org/rec/conf/emnlp/ShenSLLLM25",
+      "10.18653/v1/2025.emnlp-main.7"
+    ],
+    "2025-emnlp-main-706": [
+      "2025-emnlp-main-706",
+      "Transparent and Coherent Procedural Mistake Detection",
+      "dblp:conf/emnlp/StorksBLZCC25",
+      "https://dblp.org/rec/conf/emnlp/StorksBLZCC25",
+      "10.18653/v1/2025.emnlp-main.706"
+    ],
+    "2025-emnlp-main-718": [
+      "2025-emnlp-main-718",
+      "Mixture-of-Clustered-Experts: Advancing Expert Specialization and Generalization in Instruction Tuning",
+      "dblp:conf/emnlp/EoLPL25",
+      "https://dblp.org/rec/conf/emnlp/EoLPL25",
+      "10.18653/v1/2025.emnlp-main.718"
+    ],
+    "2025-emnlp-main-730": [
+      "2025-emnlp-main-730",
+      "HydraRAG: Structured Cross-Source Enhanced Large Language Model Reasoning",
+      "dblp:conf/emnlp/TanWLXYZZ25",
+      "https://dblp.org/rec/conf/emnlp/TanWLXYZZ25",
+      "10.18653/v1/2025.emnlp-main.730"
+    ],
+    "2025-emnlp-main-742": [
+      "2025-emnlp-main-742",
+      "Calibration Across Layers: Understanding Calibration Evolution in LLMs",
+      "dblp:conf/emnlp/JoshiAM25",
+      "https://dblp.org/rec/conf/emnlp/JoshiAM25",
+      "10.18653/v1/2025.emnlp-main.742"
+    ],
+    "2025-emnlp-main-754": [
+      "2025-emnlp-main-754",
+      "Reward Model Perspectives: Whose Opinions Do Reward Models Reward?",
+      "dblp:conf/emnlp/Elle25",
+      "https://dblp.org/rec/conf/emnlp/Elle25",
+      "10.18653/v1/2025.emnlp-main.754"
+    ],
+    "2025-emnlp-main-766": [
+      "2025-emnlp-main-766",
+      "Tracing L1 Interference in English Learner Writing: A Longitudinal Corpus with Error Annotations",
+      "dblp:conf/emnlp/AcharyaLGNZA25",
+      "https://dblp.org/rec/conf/emnlp/AcharyaLGNZA25",
+      "10.18653/v1/2025.emnlp-main.766"
+    ],
+    "2025-emnlp-main-778": [
+      "2025-emnlp-main-778",
+      "Journalism-Guided Agentic In-context Learning for News Stance Detection",
+      "dblp:conf/emnlp/LeeCHP25",
+      "https://dblp.org/rec/conf/emnlp/LeeCHP25",
+      "10.18653/v1/2025.emnlp-main.778"
+    ],
+    "2025-emnlp-main-79": [
+      "2025-emnlp-main-79",
+      "MMLU-ProX: A Multilingual Benchmark for Advanced Large Language Model Evaluation",
+      "dblp:conf/emnlp/XuanYQZXFLXWGLJLLYDGLXJ25",
+      "https://dblp.org/rec/conf/emnlp/XuanYQZXFLXWGLJLLYDGLXJ25",
+      "10.18653/v1/2025.emnlp-main.79"
+    ],
+    "2025-emnlp-main-790": [
+      "2025-emnlp-main-790",
+      "TreeReview: A Dynamic Tree of Questions Framework for Deep and Efficient LLM-based Scientific Peer Review",
+      "dblp:conf/emnlp/ChangLZKWSGZW25",
+      "https://dblp.org/rec/conf/emnlp/ChangLZKWSGZW25",
+      "10.18653/v1/2025.emnlp-main.790"
+    ],
+    "2025-emnlp-main-802": [
+      "2025-emnlp-main-802",
+      "From Capabilities to Performance: Evaluating Key Functional Properties of LLM Architectures in Penetration Testing",
+      "dblp:conf/emnlp/HuangDCBJ25",
+      "https://dblp.org/rec/conf/emnlp/HuangDCBJ25",
+      "10.18653/v1/2025.emnlp-main.802"
+    ],
+    "2025-emnlp-main-815": [
+      "2025-emnlp-main-815",
+      "Promote, Suppress, Iterate: How Language Models Answer One-to-Many Factual Queries",
+      "dblp:conf/emnlp/YanJ25",
+      "https://dblp.org/rec/conf/emnlp/YanJ25",
+      "10.18653/v1/2025.emnlp-main.815"
+    ],
+    "2025-emnlp-main-827": [
+      "2025-emnlp-main-827",
+      "Can LLMs simulate the same correct solutions to free-response math problems as real students?",
+      "dblp:conf/emnlp/AsanoLW25",
+      "https://dblp.org/rec/conf/emnlp/AsanoLW25",
+      "10.18653/v1/2025.emnlp-main.827"
+    ],
+    "2025-emnlp-main-839": [
+      "2025-emnlp-main-839",
+      "SAMULE: Self-Learning Agents Enhanced by Multi-level Reflection",
+      "dblp:conf/emnlp/GeRCSZ25",
+      "https://dblp.org/rec/conf/emnlp/GeRCSZ25",
+      "10.18653/v1/2025.emnlp-main.839"
+    ],
+    "2025-emnlp-main-851": [
+      "2025-emnlp-main-851",
+      "TORSO: Template-Oriented Reasoning Towards General Tasks",
+      "dblp:conf/emnlp/KimLL25a",
+      "https://dblp.org/rec/conf/emnlp/KimLL25a",
+      "10.18653/v1/2025.emnlp-main.851"
+    ],
+    "2025-emnlp-main-863": [
+      "2025-emnlp-main-863",
+      "Are Large Language Models Chronically Online Surfers? A Dataset for Chinese Internet Meme Explanation",
+      "dblp:conf/emnlp/XieWMM25",
+      "https://dblp.org/rec/conf/emnlp/XieWMM25",
+      "10.18653/v1/2025.emnlp-main.863"
+    ],
+    "2025-emnlp-main-875": [
+      "2025-emnlp-main-875",
+      "Chameleon LLMs: User Personas Influence Chatbot Personality Shifts",
+      "dblp:conf/emnlp/XingNS25",
+      "https://dblp.org/rec/conf/emnlp/XingNS25",
+      "10.18653/v1/2025.emnlp-main.875"
+    ],
+    "2025-emnlp-main-887": [
+      "2025-emnlp-main-887",
+      "Extracting and Combining Abilities For Building Multi-lingual Ability-enhanced Large Language Models",
+      "dblp:conf/emnlp/ChenZSZWCW25",
+      "https://dblp.org/rec/conf/emnlp/ChenZSZWCW25",
+      "10.18653/v1/2025.emnlp-main.887"
+    ],
+    "2025-emnlp-main-899": [
+      "2025-emnlp-main-899",
+      "ToM: Leveraging Tree-oriented MapReduce for Long-Context Reasoning in Large Language Models",
+      "dblp:conf/emnlp/GuoLWWLZZY25",
+      "https://dblp.org/rec/conf/emnlp/GuoLWWLZZY25",
+      "10.18653/v1/2025.emnlp-main.899"
+    ],
+    "2025-emnlp-main-91": [
+      "2025-emnlp-main-91",
+      "Culture Cartography: Mapping the Landscape of Cultural Knowledge",
+      "dblp:conf/emnlp/ZiemsHYGGY25",
+      "https://dblp.org/rec/conf/emnlp/ZiemsHYGGY25",
+      "10.18653/v1/2025.emnlp-main.91"
+    ],
+    "2025-emnlp-main-911": [
+      "2025-emnlp-main-911",
+      "Faster In-Context Learning for LLMs via N-Gram Trie Speculative Decoding",
+      "dblp:conf/emnlp/ChenLLQGAZW25",
+      "https://dblp.org/rec/conf/emnlp/ChenLLQGAZW25",
+      "10.18653/v1/2025.emnlp-main.911"
+    ],
+    "2025-emnlp-main-923": [
+      "2025-emnlp-main-923",
+      "Thread: A Logic-Based Data Organization Paradigm for How-To Question Answering with Retrieval Augmented Generation",
+      "dblp:conf/emnlp/AnYLLCSWZCLRZC25",
+      "https://dblp.org/rec/conf/emnlp/AnYLLCSWZCLRZC25",
+      "10.18653/v1/2025.emnlp-main.923"
+    ],
+    "2025-emnlp-main-935": [
+      "2025-emnlp-main-935",
+      "MaZO: Masked Zeroth-Order Optimization for Multi-Task Fine-Tuning of Large Language Models",
+      "dblp:conf/emnlp/ZhangYZSMKZ25",
+      "https://dblp.org/rec/conf/emnlp/ZhangYZSMKZ25",
+      "10.18653/v1/2025.emnlp-main.935"
+    ],
+    "2025-emnlp-main-947": [
+      "2025-emnlp-main-947",
+      "TreeRare: Syntax Tree-Guided Retrieval and Reasoning for Knowledge-Intensive Question Answering",
+      "dblp:conf/emnlp/ZhangLH25",
+      "https://dblp.org/rec/conf/emnlp/ZhangLH25",
+      "10.18653/v1/2025.emnlp-main.947"
+    ],
+    "2025-emnlp-main-959": [
+      "2025-emnlp-main-959",
+      "ReSURE: Regularizing Supervision Unreliability for Multi-turn Dialogue Fine-tuning",
+      "dblp:conf/emnlp/DuXLLWT25",
+      "https://dblp.org/rec/conf/emnlp/DuXLLWT25",
+      "10.18653/v1/2025.emnlp-main.959"
+    ],
+    "2025-emnlp-main-971": [
+      "2025-emnlp-main-971",
+      "DivScore: Zero-Shot Detection of LLM-Generated Text in Specialized Domains",
+      "dblp:conf/emnlp/ChenHHZF25",
+      "https://dblp.org/rec/conf/emnlp/ChenHHZF25",
+      "10.18653/v1/2025.emnlp-main.971"
+    ],
+    "2025-emnlp-main-983": [
+      "2025-emnlp-main-983",
+      "3DS: Medical Domain Adaptation of LLMs via Decomposed Difficulty-based Data Selection",
+      "dblp:conf/emnlp/DingFZJZXLCZW25",
+      "https://dblp.org/rec/conf/emnlp/DingFZJZXLCZW25",
+      "10.18653/v1/2025.emnlp-main.983"
+    ],
+    "2025-emnlp-main-995": [
+      "2025-emnlp-main-995",
+      "Looking Beyond Text: Reducing Language Bias in Large Vision-Language Models via Multimodal Dual-Attention and Soft-Image Guidance",
+      "dblp:conf/emnlp/ZhaoSCZSCZ25",
+      "https://dblp.org/rec/conf/emnlp/ZhaoSCZSCZ25",
+      "10.18653/v1/2025.emnlp-main.995"
+    ],
+    "p21": [
+      "p21",
+      "The Control Toolbox -An Open-Source C++ Library for Robotics, Optimal and Model Predictive Control",
+      "dblp:conf/simpar/GiftthalerNSB18",
+      "https://dblp.org/rec/conf/simpar/GiftthalerNSB18",
+      "10.1109/simpar.2018.8376281"
+    ],
+    "p23": [
+      "p23",
+      "Vision-Language-Action Models for Robotics: A Review Towards Real-World Applications",
+      "dblp:journals/access/KawaharazukaOYPZ25",
+      "https://dblp.org/rec/journals/access/KawaharazukaOYPZ25",
+      "10.1109/access.2025.3609980"
+    ],
+    "p24": [
+      "p24",
+      "Model Hierarchy Predictive Control of Robotic Systems",
+      "dblp:journals/ral/LiFW21",
+      "https://dblp.org/rec/journals/ral/LiFW21",
+      "10.1109/lra.2021.3061322"
+    ],
+    "p25": [
+      "p25",
+      "Leader-Follower Consensus Multi-Robot Formation Control Using Neurodynamic-Optimization-Based Nonlinear Model Predictive Control",
+      "dblp:journals/access/XiaoC19",
+      "https://dblp.org/rec/journals/access/XiaoC19",
+      "10.1109/access.2019.2907960"
+    ],
+    "p27": [
+      "p27",
+      "Nonlinear Model Predictive Control of Robotic Systems with Control Lyapunov Functions",
+      "dblp:conf/rss/GrandiaTS0A20",
+      "https://dblp.org/rec/conf/rss/GrandiaTS0A20",
+      "10.15607/rss.2020.xvi.098"
+    ],
+    "p28": [
+      "p28",
+      "DayDreamer: World Models for Physical Robot Learning",
+      "dblp:journals/corr/abs-2206-14176",
+      "https://dblp.org/rec/journals/corr/abs-2206-14176",
+      "10.48550/arxiv.2206.14176"
+    ],
+    "p30": [
+      "p30",
+      "Model Predictive Actor-Critic: Accelerating Robot Skill Acquisition with Deep Reinforcement Learning",
+      "dblp:conf/icra/MorganNCDD021",
+      "https://dblp.org/rec/conf/icra/MorganNCDD021",
+      "10.1109/icra48506.2021.9561298"
+    ],
+    "p31": [
+      "p31",
+      "Model Predictive Control With Integral Compensation for Motion Control of Robot Manipulator in Joint and Task Spaces",
+      "dblp:journals/access/ChenLHLQ20",
+      "https://dblp.org/rec/journals/access/ChenLHLQ20",
+      "10.1109/access.2020.3001044"
+    ],
+    "p34": [
+      "p34",
+      "Model Predictive Control with Gaussian Processes for Flexible Multi-Modal Physical Human Robot Interaction",
+      "dblp:conf/icra/HaningerHP22",
+      "https://dblp.org/rec/conf/icra/HaningerHP22",
+      "10.1109/icra46639.2022.9811590"
+    ],
+    "p36": [
+      "p36",
+      "Towards a Domain Specific Language for a Scene Graph based Robotic World Model",
+      "dblp:journals/corr/BlumenthalB14",
+      "https://dblp.org/rec/journals/corr/BlumenthalB14",
+      "10.48550/arxiv.1408.0200"
+    ],
+    "p37": [
+      "p37",
+      "Real-World Cooking Robot System from Recipes Based on Food State Recognition Using Foundation Models and PDDL",
+      "dblp:journals/ar/KanazawaKOOI24",
+      "https://dblp.org/rec/journals/ar/KanazawaKOOI24",
+      "10.1080/01691864.2024.2407136"
+    ],
+    "p38": [
+      "p38",
+      "Unified World Models: Coupling Video and Action Diffusion for Pretraining on Large Robotic Datasets",
+      "dblp:journals/corr/abs-2504-02792",
+      "https://dblp.org/rec/journals/corr/abs-2504-02792",
+      "10.15607/rss.2025.xxi.015"
+    ],
+    "p40": [
+      "p40",
+      "Exploring the World of Robot-Assisted Digital Storytelling: Trends, Models, and Educational Implications",
+      "dblp:journals/jite/EssienP24",
+      "https://dblp.org/rec/journals/jite/EssienP24",
+      "10.28945/5378"
+    ],
+    "p41": [
+      "p41",
+      "Learning World Transition Model for Socially Aware Robot Navigation",
+      "dblp:journals/corr/abs-2011-03922",
+      "https://dblp.org/rec/journals/corr/abs-2011-03922",
+      "10.48550/arxiv.2011.03922"
+    ],
+    "p42": [
+      "p42",
+      "RoboDreamer: Learning Compositional World Models for Robot Imagination",
+      "dblp:journals/corr/abs-2404-12377",
+      "https://dblp.org/rec/journals/corr/abs-2404-12377",
+      "10.48550/arxiv.2404.12377"
+    ],
+    "p44": [
+      "p44",
+      "VISUALPREDICATOR: LEARNING ABSTRACT WORLD MODELS WITH NEURO-SYMBOLIC PREDICATES FOR ROBOT PLANNING",
+      "dblp:journals/corr/abs-2410-23156",
+      "https://dblp.org/rec/journals/corr/abs-2410-23156",
+      "10.48550/arxiv.2410.23156"
+    ],
+    "p45": [
+      "p45",
+      "Action-conditioned Benchmarking of Robotic Video Prediction Models: a Comparative Study",
+      "dblp:conf/icra/NunesDMS20",
+      "https://dblp.org/rec/conf/icra/NunesDMS20",
+      "10.1109/icra40945.2020.9196839"
+    ],
+    "p47": [
+      "p47",
+      "DREAM TO MANIPULATE: COMPOSITIONAL WORLD MODELS EMPOWERING ROBOT IMITATION LEARNING WITH IMAGINATION",
+      "dblp:journals/corr/abs-2412-14957",
+      "https://dblp.org/rec/journals/corr/abs-2412-14957",
+      "10.48550/arxiv.2412.14957"
+    ],
+    "p48": [
+      "p48",
+      "Invariant-Based World Models for Robust Robotic Systems Demonstrated on an Autonomous Football Table",
+      "dblp:journals/ral/SendenJBM22",
+      "https://dblp.org/rec/journals/ral/SendenJBM22",
+      "10.1109/lra.2022.3185767"
+    ],
+    "p49": [
+      "p49",
+      "Real-world robot applications of foundation models: a review",
+      "dblp:journals/ar/KawaharazukaMGGPZ24",
+      "https://dblp.org/rec/journals/ar/KawaharazukaMGGPZ24",
+      "10.1080/01691864.2024.2408593"
+    ],
+    "p50": [
+      "p50",
+      "RISE: Self-Improving Robot Policy with Compositional World Model",
+      "dblp:journals/corr/abs-2602-11075",
+      "https://dblp.org/rec/journals/corr/abs-2602-11075",
+      "10.15607/rss.2026.xxii.012"
+    ],
+    "p52": [
+      "p52",
+      "Prediction of Assembly Intent for Human-Robot Collaboration Based on Video Analytics and Hidden Markov Model",
+      "dblp:journals/cmc/QuLLWF25",
+      "https://dblp.org/rec/journals/cmc/QuLLWF25",
+      "10.32604/cmc.2025.065895"
+    ]
+  },
+  "questions": {
+    "q01": {
+      "relations": {
+        "addressesTheme": [
+          "addresses theme",
+          "has theme"
+        ]
+      },
+      "object_type": {
+        "addressesTheme": "theme"
+      },
+      "canonical_labels": {
+        "theme": [
+          "language_models",
+          "multilingual_nlp",
+          "information_extraction",
+          "question_answering",
+          "machine_translation",
+          "summarization",
+          "retrieval_and_rag",
+          "evaluation_and_benchmarking",
+          "robotics_and_embodied_ai",
+          "multimodal_learning",
+          "safety_and_reliability",
+          "data_and_corpus_methods"
+        ]
+      },
+      "aliases": {
+        "theme": {
+          "language_models": [
+            "large language models",
+            "llms",
+            "pretrained language models"
+          ],
+          "multilingual_nlp": [
+            "multilinguality",
+            "cross-lingual NLP",
+            "low-resource languages"
+          ],
+          "information_extraction": [
+            "IE",
+            "knowledge extraction",
+            "relation extraction"
+          ],
+          "question_answering": [
+            "QA",
+            "question answering systems"
+          ],
+          "machine_translation": [
+            "MT",
+            "translation"
+          ],
+          "summarization": [
+            "text summarisation",
+            "document summarization"
+          ],
+          "retrieval_and_rag": [
+            "retrieval augmented generation",
+            "RAG",
+            "retrieval-augmented methods"
+          ],
+          "evaluation_and_benchmarking": [
+            "evaluation",
+            "benchmarking"
+          ],
+          "robotics_and_embodied_ai": [
+            "robotics",
+            "embodied AI",
+            "robot learning"
+          ],
+          "multimodal_learning": [
+            "multimodal AI",
+            "vision-language learning"
+          ],
+          "safety_and_reliability": [
+            "AI safety",
+            "reliability",
+            "trustworthiness"
+          ],
+          "data_and_corpus_methods": [
+            "dataset construction",
+            "corpus creation",
+            "data curation"
+          ]
+        }
+      },
+      "proposed_labels": [
+        "language_models",
+        "multilingual_nlp",
+        "information_extraction",
+        "question_answering",
+        "machine_translation",
+        "summarization",
+        "retrieval_and_rag",
+        "evaluation_and_benchmarking",
+        "robotics_and_embodied_ai",
+        "multimodal_learning",
+        "safety_and_reliability",
+        "data_and_corpus_methods"
+      ]
+    },
+    "q02": {
+      "relations": {
+        "addressesTask": [
+          "addresses task",
+          "performs task"
+        ],
+        "usesApproach": [
+          "uses approach",
+          "approach"
+        ]
+      },
+      "object_type": {
+        "addressesTask": "task",
+        "usesApproach": "approach"
+      },
+      "canonical_labels": {
+        "task": [
+          "question_answering",
+          "machine_translation",
+          "summarization",
+          "text_classification",
+          "information_extraction",
+          "dialogue_and_conversation",
+          "text_generation",
+          "information_retrieval",
+          "language_understanding",
+          "speech_and_audio",
+          "vision_language_task",
+          "robotics_and_control"
+        ],
+        "approach": [
+          "transformer_or_pretrained_model",
+          "instruction_tuning_or_finetuning",
+          "retrieval_augmented",
+          "prompting_or_in_context_learning",
+          "agent_or_tool_use",
+          "supervised_learning",
+          "self_supervised_or_contrastive_learning",
+          "human_in_the_loop",
+          "synthetic_data_or_augmentation",
+          "rule_based_or_symbolic",
+          "multimodal_fusion",
+          "benchmark_or_empirical_comparison"
+        ]
+      },
+      "aliases": {
+        "task": {
+          "question_answering": [
+            "QA",
+            "open-domain QA",
+            "reading comprehension"
+          ],
+          "machine_translation": [
+            "MT",
+            "translation"
+          ],
+          "summarization": [
+            "summarisation",
+            "abstractive summarization",
+            "extractive summarization"
+          ],
+          "text_classification": [
+            "classification",
+            "sentiment analysis",
+            "topic classification"
+          ],
+          "information_extraction": [
+            "relation extraction",
+            "named entity recognition",
+            "event extraction"
+          ],
+          "dialogue_and_conversation": [
+            "dialogue",
+            "dialog",
+            "conversational AI"
+          ],
+          "text_generation": [
+            "generation",
+            "natural language generation",
+            "NLG"
+          ],
+          "information_retrieval": [
+            "retrieval",
+            "search"
+          ],
+          "language_understanding": [
+            "natural language understanding",
+            "NLU"
+          ],
+          "speech_and_audio": [
+            "speech recognition",
+            "ASR",
+            "speech synthesis"
+          ],
+          "vision_language_task": [
+            "vision-language",
+            "visual question answering",
+            "VQA"
+          ],
+          "robotics_and_control": [
+            "robot control",
+            "manipulation",
+            "motion planning"
+          ]
+        },
+        "approach": {
+          "transformer_or_pretrained_model": [
+            "transformer",
+            "pretrained model",
+            "pre-trained model"
+          ],
+          "instruction_tuning_or_finetuning": [
+            "instruction tuning",
+            "fine-tuning",
+            "finetuning"
+          ],
+          "retrieval_augmented": [
+            "RAG",
+            "retrieval-augmented generation",
+            "retrieval augmented"
+          ],
+          "prompting_or_in_context_learning": [
+            "prompting",
+            "few-shot learning",
+            "in-context learning"
+          ],
+          "agent_or_tool_use": [
+            "agents",
+            "tool use",
+            "tool-using systems"
+          ],
+          "supervised_learning": [
+            "supervised training"
+          ],
+          "self_supervised_or_contrastive_learning": [
+            "self-supervised learning",
+            "contrastive learning"
+          ],
+          "human_in_the_loop": [
+            "human feedback",
+            "human-in-the-loop"
+          ],
+          "synthetic_data_or_augmentation": [
+            "data augmentation",
+            "synthetic data"
+          ],
+          "rule_based_or_symbolic": [
+            "symbolic method",
+            "rules-based"
+          ],
+          "multimodal_fusion": [
+            "multimodal method",
+            "cross-modal fusion"
+          ],
+          "benchmark_or_empirical_comparison": [
+            "empirical comparison",
+            "benchmark evaluation"
+          ]
+        }
+      },
+      "proposed_labels": [
+        "question_answering",
+        "machine_translation",
+        "summarization",
+        "text_classification",
+        "information_extraction",
+        "dialogue_and_conversation",
+        "text_generation",
+        "information_retrieval",
+        "language_understanding",
+        "speech_and_audio",
+        "vision_language_task",
+        "robotics_and_control",
+        "transformer_or_pretrained_model",
+        "instruction_tuning_or_finetuning",
+        "retrieval_augmented",
+        "prompting_or_in_context_learning",
+        "agent_or_tool_use",
+        "supervised_learning",
+        "self_supervised_or_contrastive_learning",
+        "human_in_the_loop",
+        "synthetic_data_or_augmentation",
+        "rule_based_or_symbolic",
+        "multimodal_fusion",
+        "benchmark_or_empirical_comparison"
+      ]
+    },
+    "q03": {
+      "relations": {
+        "usesEvidenceMethod": [
+          "uses evidence method",
+          "uses method"
+        ]
+      },
+      "object_type": {
+        "usesEvidenceMethod": "method"
+      },
+      "canonical_labels": {
+        "method": [
+          "retrieval_augmented_generation",
+          "citation_grounded_generation",
+          "corpus_or_document_retrieval",
+          "tool_use",
+          "evidence_verification",
+          "human_annotation_or_review",
+          "knowledge_graph_or_structured_evidence",
+          "no_explicit_evidence_method"
+        ]
+      },
+      "aliases": {
+        "method": {
+          "retrieval_augmented_generation": [
+            "RAG",
+            "retrieval-augmented generation",
+            "retrieval augmented methods"
+          ],
+          "citation_grounded_generation": [
+            "citation grounding",
+            "source attribution",
+            "citation-based grounding"
+          ],
+          "corpus_or_document_retrieval": [
+            "document retrieval",
+            "search over papers",
+            "corpus search"
+          ],
+          "tool_use": [
+            "tool use",
+            "tools",
+            "tool-augmented reasoning"
+          ],
+          "evidence_verification": [
+            "fact checking",
+            "claim verification",
+            "evidence validation"
+          ],
+          "human_annotation_or_review": [
+            "human annotation",
+            "manual review",
+            "annotator judgments"
+          ],
+          "knowledge_graph_or_structured_evidence": [
+            "knowledge graph",
+            "structured knowledge",
+            "graph-based evidence"
+          ],
+          "no_explicit_evidence_method": [
+            "no retrieval",
+            "no explicit evidence"
+          ]
+        }
+      },
+      "proposed_labels": [
+        "retrieval_augmented_generation",
+        "citation_grounded_generation",
+        "corpus_or_document_retrieval",
+        "tool_use",
+        "evidence_verification",
+        "human_annotation_or_review",
+        "knowledge_graph_or_structured_evidence",
+        "no_explicit_evidence_method"
+      ]
+    },
+    "q04": {
+      "relations": {
+        "evaluatesOn": [
+          "evaluates on",
+          "uses benchmark"
+        ],
+        "measures": [
+          "measures",
+          "evaluates"
+        ]
+      },
+      "object_type": {
+        "evaluatesOn": "benchmark",
+        "measures": "capability"
+      },
+      "canonical_labels": {
+        "benchmark": [
+          "GLUE",
+          "SuperGLUE",
+          "SQuAD",
+          "Natural Questions",
+          "TriviaQA",
+          "MMLU",
+          "MATH",
+          "GSM8K",
+          "XNLI",
+          "WMT",
+          "FLORES",
+          "BEIR",
+          "MS MARCO",
+          "MIRACL",
+          "HotpotQA",
+          "FEVER",
+          "CNN/DailyMail",
+          "XSum",
+          "LIBERO",
+          "CALVIN",
+          "Meta-World",
+          "RoboCasa",
+          "other_named_benchmark"
+        ],
+        "capability": [
+          "language_understanding",
+          "reading_comprehension",
+          "question_answering",
+          "reasoning",
+          "mathematical_reasoning",
+          "multilingual_transfer",
+          "machine_translation",
+          "information_retrieval",
+          "factuality_or_fact_verification",
+          "summarization",
+          "robotic_manipulation",
+          "generalization_or_robustness",
+          "other_reported_capability"
+        ]
+      },
+      "aliases": {
+        "benchmark": {
+          "GLUE": [
+            "GLUE benchmark"
+          ],
+          "SuperGLUE": [
+            "Super GLUE"
+          ],
+          "SQuAD": [
+            "Stanford Question Answering Dataset"
+          ],
+          "Natural Questions": [
+            "NQ"
+          ],
+          "TriviaQA": [
+            "Trivia QA"
+          ],
+          "MMLU": [
+            "Massive Multitask Language Understanding"
+          ],
+          "MATH": [
+            "MATH dataset"
+          ],
+          "GSM8K": [
+            "Grade School Math 8K"
+          ],
+          "XNLI": [
+            "Cross-lingual NLI"
+          ],
+          "WMT": [
+            "Workshop on Machine Translation"
+          ],
+          "FLORES": [
+            "FLORES-200",
+            "FLORES 200"
+          ],
+          "BEIR": [
+            "Benchmarking IR"
+          ],
+          "MS MARCO": [
+            "MSMARCO"
+          ],
+          "MIRACL": [
+            "Multilingual Information Retrieval Across a Continuum of Languages"
+          ],
+          "HotpotQA": [
+            "Hotpot QA"
+          ],
+          "FEVER": [
+            "Fact Extraction and VERification"
+          ],
+          "CNN/DailyMail": [
+            "CNN Daily Mail"
+          ],
+          "XSum": [
+            "Extreme Summarization"
+          ],
+          "LIBERO": [
+            "LIBERO benchmark"
+          ],
+          "CALVIN": [
+            "CALVIN benchmark"
+          ],
+          "Meta-World": [
+            "MetaWorld"
+          ],
+          "RoboCasa": [
+            "RoboCasa benchmark"
+          ],
+          "other_named_benchmark": [
+            "other dataset or benchmark"
+          ]
+        },
+        "capability": {
+          "language_understanding": [],
+          "reading_comprehension": [],
+          "question_answering": [],
+          "reasoning": [],
+          "mathematical_reasoning": [],
+          "multilingual_transfer": [],
+          "machine_translation": [],
+          "information_retrieval": [],
+          "factuality_or_fact_verification": [],
+          "summarization": [],
+          "robotic_manipulation": [],
+          "generalization_or_robustness": [],
+          "other_reported_capability": []
+        }
+      },
+      "proposed_labels": [
+        "GLUE",
+        "SuperGLUE",
+        "SQuAD",
+        "Natural Questions",
+        "TriviaQA",
+        "MMLU",
+        "MATH",
+        "GSM8K",
+        "XNLI",
+        "WMT",
+        "FLORES",
+        "BEIR",
+        "MS MARCO",
+        "MIRACL",
+        "HotpotQA",
+        "FEVER",
+        "CNN/DailyMail",
+        "XSum",
+        "LIBERO",
+        "CALVIN",
+        "Meta-World",
+        "RoboCasa",
+        "other_named_benchmark",
+        "language_understanding",
+        "reading_comprehension",
+        "question_answering",
+        "reasoning",
+        "mathematical_reasoning",
+        "multilingual_transfer",
+        "machine_translation",
+        "information_retrieval",
+        "factuality_or_fact_verification",
+        "summarization",
+        "robotic_manipulation",
+        "generalization_or_robustness",
+        "other_reported_capability"
+      ]
+    },
+    "q05": {
+      "relations": {
+        "evaluationType": [
+          "evaluation type",
+          "evaluates with"
+        ]
+      },
+      "object_type": {
+        "evaluationType": "evaluation_type"
+      },
+      "canonical_labels": {
+        "evaluation_type": [
+          "automatic_metric",
+          "human_judgment",
+          "real_world_test"
+        ]
+      },
+      "aliases": {
+        "evaluation_type": {
+          "automatic_metric": [
+            "automatic metric",
+            "automated metric",
+            "automatic evaluation",
+            "machine-computed metric"
+          ],
+          "human_judgment": [
+            "human judgement",
+            "human evaluation",
+            "human assessment",
+            "annotator rating",
+            "expert review"
+          ],
+          "real_world_test": [
+            "real-world test",
+            "real world evaluation",
+            "deployment test",
+            "in-the-wild evaluation",
+            "physical-world test"
+          ]
+        }
+      },
+      "proposed_labels": [
+        "automatic_metric",
+        "human_judgment",
+        "real_world_test"
+      ]
+    },
+    "q06": {
+      "relations": {
+        "coversLanguage": [
+          "covers language",
+          "uses language",
+          "language"
+        ]
+      },
+      "object_type": {
+        "coversLanguage": "language"
+      },
+      "canonical_labels": {
+        "language": [
+          "eng",
+          "zho",
+          "spa",
+          "ara",
+          "deu",
+          "fra",
+          "hin",
+          "jpn",
+          "kor",
+          "rus",
+          "por",
+          "ita",
+          "eus",
+          "bod",
+          "mon",
+          "sin",
+          "ind",
+          "tha",
+          "urd",
+          "ces",
+          "ceb",
+          "tgl",
+          "ukr"
+        ]
+      },
+      "aliases": {
+        "language": {
+          "eng": [
+            "English",
+            "english"
+          ],
+          "zho": [
+            "Chinese",
+            "chinese",
+            "Mandarin"
+          ],
+          "spa": [
+            "Spanish",
+            "spanish"
+          ],
+          "ara": [
+            "Arabic",
+            "arabic"
+          ],
+          "deu": [
+            "German",
+            "german"
+          ],
+          "fra": [
+            "French",
+            "french"
+          ],
+          "hin": [
+            "Hindi",
+            "hindi"
+          ],
+          "jpn": [
+            "Japanese",
+            "japanese"
+          ],
+          "kor": [
+            "Korean",
+            "korean"
+          ],
+          "rus": [
+            "Russian",
+            "russian"
+          ],
+          "por": [
+            "Portuguese",
+            "portuguese"
+          ],
+          "ita": [
+            "Italian",
+            "italian"
+          ],
+          "eus": [
+            "Basque",
+            "basque"
+          ],
+          "bod": [
+            "Tibetan",
+            "tibetan"
+          ],
+          "mon": [
+            "Mongolian",
+            "mongolian"
+          ],
+          "sin": [
+            "Sinhala",
+            "sinhala"
+          ],
+          "ind": [
+            "Indonesian",
+            "indonesian"
+          ],
+          "tha": [
+            "Thai",
+            "thai"
+          ],
+          "urd": [
+            "Urdu",
+            "urdu"
+          ],
+          "ces": [
+            "Czech",
+            "czech"
+          ],
+          "ceb": [
+            "Cebuano",
+            "cebuano"
+          ],
+          "tgl": [
+            "Tagalog",
+            "tagalog"
+          ],
+          "ukr": [
+            "Ukrainian",
+            "ukrainian"
+          ]
+        }
+      },
+      "language_code_standard": "ISO 639-3",
+      "proposed_labels": [
+        "eng",
+        "zho",
+        "spa",
+        "ara",
+        "deu",
+        "fra",
+        "hin",
+        "jpn",
+        "kor",
+        "rus",
+        "por",
+        "ita",
+        "eus",
+        "bod",
+        "mon",
+        "sin",
+        "ind",
+        "tha",
+        "urd",
+        "ces",
+        "ceb",
+        "tgl",
+        "ukr"
+      ]
+    },
+    "q07": {
+      "relations": {
+        "studiesRisk": [
+          "studies risk",
+          "risk"
+        ],
+        "riskTestedBy": [
+          "risk tested by",
+          "tested by"
+        ]
+      },
+      "object_type": {
+        "studiesRisk": "risk",
+        "riskTestedBy": "test_method"
+      },
+      "canonical_labels": {
+        "risk": [
+          "hallucination_or_factual_error",
+          "bias_or_unfairness",
+          "toxicity_or_harmful_content",
+          "privacy_or_data_leakage",
+          "prompt_injection_or_jailbreak",
+          "misinformation_or_deception",
+          "robustness_or_distribution_shift",
+          "unsafe_action_or_misuse",
+          "security_or_attack_surface",
+          "overreliance_or_automation_risk"
+        ],
+        "test_method": [
+          "adversarial_or_red_team_test",
+          "safety_benchmark",
+          "human_judgment",
+          "real_world_or_user_study",
+          "factuality_or_evidence_check",
+          "robustness_or_stress_test",
+          "privacy_or_security_audit",
+          "content_moderation_test"
+        ]
+      },
+      "aliases": {
+        "risk": {
+          "hallucination_or_factual_error": [
+            "hallucination",
+            "fabrication",
+            "factual error"
+          ],
+          "bias_or_unfairness": [
+            "bias",
+            "fairness issue",
+            "discrimination"
+          ],
+          "toxicity_or_harmful_content": [
+            "toxicity",
+            "harmful output",
+            "unsafe content"
+          ],
+          "privacy_or_data_leakage": [
+            "privacy leakage",
+            "memorization",
+            "data leakage"
+          ],
+          "prompt_injection_or_jailbreak": [
+            "prompt injection",
+            "jailbreak"
+          ],
+          "misinformation_or_deception": [
+            "misinformation",
+            "deception"
+          ],
+          "robustness_or_distribution_shift": [
+            "distribution shift",
+            "robustness failure"
+          ],
+          "unsafe_action_or_misuse": [
+            "misuse",
+            "unsafe behavior"
+          ],
+          "security_or_attack_surface": [
+            "security vulnerability",
+            "attack surface"
+          ],
+          "overreliance_or_automation_risk": [
+            "overreliance",
+            "automation bias"
+          ]
+        },
+        "test_method": {
+          "adversarial_or_red_team_test": [
+            "red teaming",
+            "adversarial testing"
+          ],
+          "safety_benchmark": [
+            "safety evaluation benchmark"
+          ],
+          "human_judgment": [
+            "human evaluation",
+            "expert review"
+          ],
+          "real_world_or_user_study": [
+            "user study",
+            "deployment evaluation"
+          ],
+          "factuality_or_evidence_check": [
+            "fact checking",
+            "evidence verification"
+          ],
+          "robustness_or_stress_test": [
+            "stress test",
+            "robustness evaluation"
+          ],
+          "privacy_or_security_audit": [
+            "privacy audit",
+            "security audit"
+          ],
+          "content_moderation_test": [
+            "moderation evaluation",
+            "toxicity classifier test"
+          ]
+        }
+      },
+      "proposed_labels": [
+        "hallucination_or_factual_error",
+        "bias_or_unfairness",
+        "toxicity_or_harmful_content",
+        "privacy_or_data_leakage",
+        "prompt_injection_or_jailbreak",
+        "misinformation_or_deception",
+        "robustness_or_distribution_shift",
+        "unsafe_action_or_misuse",
+        "security_or_attack_surface",
+        "overreliance_or_automation_risk",
+        "adversarial_or_red_team_test",
+        "safety_benchmark",
+        "human_judgment",
+        "real_world_or_user_study",
+        "factuality_or_evidence_check",
+        "robustness_or_stress_test",
+        "privacy_or_security_audit",
+        "content_moderation_test"
+      ]
+    },
+    "q08": {
+      "relations": {
+        "reportsLimitation": [
+          "reports limitation",
+          "limitation"
+        ]
+      },
+      "object_type": {
+        "reportsLimitation": "limitation"
+      },
+      "canonical_labels": {
+        "limitation": [
+          "limited_data_or_corpus_coverage",
+          "language_or_demographic_coverage_gap",
+          "evaluation_or_benchmark_limit",
+          "weak_external_or_real_world_validity",
+          "method_or_model_constraint",
+          "reproducibility_or_reporting_gap",
+          "compute_or_resource_cost",
+          "bias_safety_or_reliability_concern",
+          "lack_of_comparison_or_baseline",
+          "open_problem_or_future_work"
+        ]
+      },
+      "aliases": {
+        "limitation": {
+          "limited_data_or_corpus_coverage": [
+            "limited data",
+            "small corpus",
+            "insufficient data"
+          ],
+          "language_or_demographic_coverage_gap": [
+            "language coverage gap",
+            "underrepresented language",
+            "demographic gap"
+          ],
+          "evaluation_or_benchmark_limit": [
+            "benchmark limitation",
+            "limited evaluation"
+          ],
+          "weak_external_or_real_world_validity": [
+            "limited generalizability",
+            "external validity",
+            "not tested in real world"
+          ],
+          "method_or_model_constraint": [
+            "model limitation",
+            "methodological constraint"
+          ],
+          "reproducibility_or_reporting_gap": [
+            "reproducibility issue",
+            "insufficient detail"
+          ],
+          "compute_or_resource_cost": [
+            "computational cost",
+            "resource limitation"
+          ],
+          "bias_safety_or_reliability_concern": [
+            "bias concern",
+            "safety limitation",
+            "reliability issue"
+          ],
+          "lack_of_comparison_or_baseline": [
+            "missing baseline",
+            "limited comparison"
+          ],
+          "open_problem_or_future_work": [
+            "future work",
+            "open challenge"
+          ]
+        }
+      },
+      "proposed_labels": [
+        "limited_data_or_corpus_coverage",
+        "language_or_demographic_coverage_gap",
+        "evaluation_or_benchmark_limit",
+        "weak_external_or_real_world_validity",
+        "method_or_model_constraint",
+        "reproducibility_or_reporting_gap",
+        "compute_or_resource_cost",
+        "bias_safety_or_reliability_concern",
+        "lack_of_comparison_or_baseline",
+        "open_problem_or_future_work"
+      ]
+    },
+    "q09": {
+      "relations": {
+        "reportsTradeoff": [
+          "reports tradeoff",
+          "tradeoff"
+        ]
+      },
+      "object_type": {
+        "reportsTradeoff": "tradeoff"
+      },
+      "canonical_labels": {
+        "tradeoff": [
+          "accuracy_vs_compute",
+          "robustness_vs_accuracy",
+          "coverage_vs_precision",
+          "performance_vs_latency",
+          "model_size_vs_efficiency",
+          "data_scale_vs_data_quality",
+          "automation_vs_human_control",
+          "generality_vs_specialization",
+          "performance_vs_safety",
+          "retrieval_recall_vs_noise"
+        ]
+      },
+      "aliases": {
+        "tradeoff": {
+          "accuracy_vs_compute": [
+            "accuracy versus compute",
+            "performance vs compute",
+            "quality vs computational cost"
+          ],
+          "robustness_vs_accuracy": [
+            "robustness versus accuracy"
+          ],
+          "coverage_vs_precision": [
+            "recall versus precision",
+            "coverage vs precision"
+          ],
+          "performance_vs_latency": [
+            "quality versus latency",
+            "speed versus performance"
+          ],
+          "model_size_vs_efficiency": [
+            "scale versus efficiency",
+            "model size versus cost"
+          ],
+          "data_scale_vs_data_quality": [
+            "data quantity versus quality"
+          ],
+          "automation_vs_human_control": [
+            "automation versus human oversight"
+          ],
+          "generality_vs_specialization": [
+            "general versus task-specific performance"
+          ],
+          "performance_vs_safety": [
+            "capability versus safety"
+          ],
+          "retrieval_recall_vs_noise": [
+            "retrieval coverage versus irrelevant context"
+          ]
+        }
+      },
+      "proposed_labels": [
+        "accuracy_vs_compute",
+        "robustness_vs_accuracy",
+        "coverage_vs_precision",
+        "performance_vs_latency",
+        "model_size_vs_efficiency",
+        "data_scale_vs_data_quality",
+        "automation_vs_human_control",
+        "generality_vs_specialization",
+        "performance_vs_safety",
+        "retrieval_recall_vs_noise"
+      ]
+    },
+    "q10": {
+      "relations": {
+        "connectedTo": [
+          "connected to",
+          "connects to"
+        ]
+      },
+      "object_type": {
+        "connectedTo": "theme"
+      },
+      "canonical_labels": {
+        "theme": [
+          "language_models",
+          "multilingual_nlp",
+          "information_extraction",
+          "question_answering",
+          "machine_translation",
+          "summarization",
+          "retrieval_and_rag",
+          "evaluation_and_benchmarking",
+          "robotics_and_embodied_ai",
+          "multimodal_learning",
+          "safety_and_reliability",
+          "data_and_corpus_methods"
+        ]
+      },
+      "aliases": {
+        "theme": {
+          "language_models": [
+            "large language models",
+            "llms",
+            "pretrained language models"
+          ],
+          "multilingual_nlp": [
+            "multilinguality",
+            "cross-lingual NLP",
+            "low-resource languages"
+          ],
+          "information_extraction": [
+            "IE",
+            "knowledge extraction",
+            "relation extraction"
+          ],
+          "question_answering": [
+            "QA",
+            "question answering systems"
+          ],
+          "machine_translation": [
+            "MT",
+            "translation"
+          ],
+          "summarization": [
+            "text summarisation",
+            "document summarization"
+          ],
+          "retrieval_and_rag": [
+            "retrieval augmented generation",
+            "RAG",
+            "retrieval-augmented methods"
+          ],
+          "evaluation_and_benchmarking": [
+            "evaluation",
+            "benchmarking"
+          ],
+          "robotics_and_embodied_ai": [
+            "robotics",
+            "embodied AI",
+            "robot learning"
+          ],
+          "multimodal_learning": [
+            "multimodal AI",
+            "vision-language learning"
+          ],
+          "safety_and_reliability": [
+            "AI safety",
+            "reliability",
+            "trustworthiness"
+          ],
+          "data_and_corpus_methods": [
+            "dataset construction",
+            "corpus creation",
+            "data curation"
+          ]
+        }
+      },
+      "subject_type": "theme_from_q01",
+      "proposed_labels": [
+        "language_models",
+        "multilingual_nlp",
+        "information_extraction",
+        "question_answering",
+        "machine_translation",
+        "summarization",
+        "retrieval_and_rag",
+        "evaluation_and_benchmarking",
+        "robotics_and_embodied_ai",
+        "multimodal_learning",
+        "safety_and_reliability",
+        "data_and_corpus_methods"
+      ]
+    }
+  },
+  "corpus_fingerprint": "1872762a22386d317d718f0f09b29828e81e029cf5807e9e7ac2dfdcd31bc8c8",
+  "review_notes": {
+    "status_explanation": "Vocabulary reviewed and approved by the project owner; frozen before benchmark execution.",
+    "q04": "Benchmark names are starter candidates and must be checked against corpus evidence before freezing; add/remove names as needed.",
+    "q06": "ISO 639-3 codes are used as canonical labels. This initial list reflects language mentions found in paper metadata and should be checked against full-text evidence.",
+    "matching": "Normalize Unicode, case, and whitespace, then use only explicit aliases. Do not use semantic similarity as an automatic match."
+  }
+}
